@@ -9,6 +9,7 @@ import {
 import "reflect-metadata"
 import { FindManyOptions, FindOperator, OrderByCondition } from "typeorm"
 import { transformDate } from "../utils/validators/date-transform"
+import { BaseEntity } from "../interfaces/models/base-entity"
 
 export type PartialPick<T, K extends keyof T> = {
   [P in K]?: T[P]
@@ -64,6 +65,22 @@ export interface CustomFindOptions<TModel, InKeys extends keyof TModel> {
   order?: OrderByCondition
   skip?: number
   take?: number
+}
+
+export type QueryConfig<TEntity extends BaseEntity> = {
+  defaultFields?: (keyof TEntity | string)[]
+  defaultRelations?: string[]
+  allowedFields?: string[]
+  defaultLimit?: number
+  isList?: boolean
+}
+
+export type QueryTypedClass = {
+  expand?: string
+  fields?: string
+  offset?: number
+  limit?: number
+  order?: string
 }
 
 export type PaginatedResponse = { limit: number; offset: number; count: number }
