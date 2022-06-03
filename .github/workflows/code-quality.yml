@@ -38,7 +38,7 @@ jobs:
 
       - name: Build Packages
         run: yarn build
-      
+
       - name: Go to core
         run: cd packages/medusa
 
@@ -55,6 +55,6 @@ jobs:
           args: >
             -Dsonar.organization=pkorsholm
             -Dsonar.projectKey=pKorsholm_medusa
-            -Dsonar.python.coverage.reportPaths=coverage.xml
+            -Dsonar.javascript.lcov.reportPath=coverage/lcov.info
             -Dsonar.test.exclusions=src/**/__tests__/**
             -Dsonar.verbose=true
