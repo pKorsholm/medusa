@@ -37,9 +37,12 @@ jobs:
 
       - name: Build Packages
         run: yarn build
+      
+      - name: Go to core
+        run: cd packages/medusa
 
       - name: Run unit tests
-        run: yarn test
+        run: yarn test --coverage --collectCoverageFrom=src/**/*.js
 
       - name: Analyze with SonarCloud
         uses: sonarsource/sonarcloud-github-action@master
