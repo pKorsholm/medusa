@@ -9,7 +9,7 @@ on: [push]
 
 jobs:
   sonar-cloud-analysis:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Cancel Previous Runs
