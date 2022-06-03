@@ -1,5 +1,6 @@
 name: Medusa Pipeline
 
+on: [push]
 # on:
 #   workflow_run:
 #     workflows: ["Medusa Pipeline"]
