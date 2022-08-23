@@ -15,6 +15,11 @@ module.exports = {
       isolatedModules: false
     }
   },
+  coverageReporters: [
+    [`json`, { file: "report.json" }],
+    `html`,
+    `lcov`,
+  ],
   transform: {
     "^.+\\.[jt]s?$": `../../jest-transformer.js`,
   },
