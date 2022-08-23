@@ -19,6 +19,8 @@ module.exports = {
     [`json`, { file: "report.json" }],
     `html`,
     `lcov`,
+    'text', 
+    'cobertura'
   ],
   transform: {
     "^.+\\.[jt]s?$": `../../jest-transformer.js`,

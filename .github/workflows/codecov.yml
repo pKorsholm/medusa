@@ -1,9 +1,9 @@
 name: codecov
-on: [push]
+on:
+  [push]
   # push:
   #   branches:
   #     - main
-
 
 jobs:
   unit-tests:
@@ -43,7 +43,4 @@ jobs:
       - name: Codecov
         uses: codecov/codecov-action@v3.1.0
         with:
-          files: packages/medusa/coverage/report.json
-
-      
-
+          files: packages/medusa/coverage/cobertura-coverage.xml
