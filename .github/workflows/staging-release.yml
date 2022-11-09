@@ -1,6 +1,11 @@
 name: Staging Release and publish
 
-on: 
+# Only trigger, when the build workflow succeeded
+on:
+  workflow_run:
+    workflows: ["Medusa Pipeline"]
+    types:
+      - completed
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
