@@ -1,7 +1,7 @@
 name: Medusa Pipeline
 on:
   pull_request:
-    types: [opened]
+    # types: [opened]
     paths-ignore:
       - "docs/**"
       - "www/**"
