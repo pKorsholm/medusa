@@ -1,5 +1,5 @@
-import { AdminAuthRes, AdminPostAuthReq } from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
+import { AdminAuthRes, AdminPostAuthReq } from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
 import { useMutation, UseMutationOptions, useQueryClient } from "react-query"
 import { adminAuthKeys } from "."
 import { useMedusa } from "../../../contexts/medusa"

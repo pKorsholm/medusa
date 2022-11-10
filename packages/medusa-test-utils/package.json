@@ -1,7 +1,7 @@
 {
-  "name": "medusa-test-utils",
+  "name": "@pkorsholm/medusa-test-utils",
   "version": "1.1.37",
-  "description": "Test utils for Medusa",
+  "description": "[Experimental] dont use this package - [experimental] dont use this packageTest utils for Medusa",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/plugin-transform-classes": "^7.9.5",
-    "medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
     "randomatic": "^3.1.1"
   },
   "gitHead": "81a7ff73d012fda722f6e9ef0bd9ba0232d37808"

@@ -1,6 +1,6 @@
 import { queryKeysFactory } from "../../utils/index"
-import { StoreSwapsRes } from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
+import { StoreSwapsRes } from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
 import { useQuery } from "react-query"
 import { useMedusa } from "../../../contexts"
 import { UseQueryOptionsWrapper } from "../../../types"

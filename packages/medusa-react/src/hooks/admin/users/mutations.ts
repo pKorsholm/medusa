@@ -3,12 +3,12 @@ import {
   AdminResetPasswordRequest,
   AdminResetPasswordTokenRequest,
   AdminUserRes,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import {
   AdminCreateUserPayload,
   AdminUpdateUserPayload,
   Response,
-} from "@medusajs/medusa-js"
+} from "@pkorsholm/medusa-js"
 import { useMutation, UseMutationOptions, useQueryClient } from "react-query"
 import { adminCustomerKeys } from ".."
 import { useMedusa } from "../../../contexts/medusa"

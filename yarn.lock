@@ -2900,60 +2900,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hapi/address@npm:^2.1.2":
-  version: 2.1.4
-  resolution: "@hapi/address@npm:2.1.4"
-  checksum: d43068dd090fa1cb9324232b8cbe3235cd9106d5b8f5280262bddff27e95f383bee887bd30931f7765e10b111169681b92ff6ae46cc608686e65a17315f5c4bb
-  languageName: node
-  linkType: hard
-
-"@hapi/formula@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@hapi/formula@npm:1.2.0"
-  checksum: dbd1b8747bbb219a09f2858b654ebdd0cf76d10b6aa583af967864e412bff75503df229b4888503768c7f9283b95831c4e3a661492298008a87f20fba97a99b4
-  languageName: node
-  linkType: hard
-
-"@hapi/hoek@npm:^8.2.4, @hapi/hoek@npm:^8.3.0":
-  version: 8.5.1
-  resolution: "@hapi/hoek@npm:8.5.1"
-  checksum: 3279747618d3be88e384af2be9aff8366dd0cbdba61d37f162d896fe4432f90b3986f96f0e5815429a72e7b6b7293429a4aaff42c234e42ee6a66bb1f9fb14dd
-  languageName: node
-  linkType: hard
-
 "@hapi/hoek@npm:^9.0.0":
   version: 9.3.0
   resolution: "@hapi/hoek@npm:9.3.0"
   checksum: a096063805051fb8bba4c947e293c664b05a32b47e13bc654c0dd43813a1cec993bdd8f29ceb838020299e1d0f89f68dc0d62a603c13c9cc8541963f0beca055
-  languageName: node
-  linkType: hard
-
-"@hapi/joi@npm:^16.1.8":
-  version: 16.1.8
-  resolution: "@hapi/joi@npm:16.1.8"
-  dependencies:
-    "@hapi/address": ^2.1.2
-    "@hapi/formula": ^1.2.0
-    "@hapi/hoek": ^8.2.4
-    "@hapi/pinpoint": ^1.0.2
-    "@hapi/topo": ^3.1.3
-  checksum: 1061e375dca6a9a63124af9ad4a372b2466ec5c84fb229e7a376aae12379138e12a8d6f739da9f523c9fb0378e87de14aa7b70a09be12d903c1d45822dccb607
-  languageName: node
-  linkType: hard
-
-"@hapi/pinpoint@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@hapi/pinpoint@npm:1.0.2"
-  checksum: 74c57283b0d7aff2f96d11183fde21188e41837d86a69be3853912309bb492c01143e60f0f147b21eea7d5d73470a26ba7cad8dc2bc4b50767e863b6bee51dad
-  languageName: node
-  linkType: hard
-
-"@hapi/topo@npm:^3.1.3":
-  version: 3.1.6
-  resolution: "@hapi/topo@npm:3.1.6"
-  dependencies:
-    "@hapi/hoek": ^8.3.0
-  checksum: 9948100dc6a3081bf29e88c7c2657a1612e46fe701d6f0cf5a5d3d656344c9cc6199d5489c563f231b65213288293673dec7d32845c59882a0f26c07dc461980
   languageName: node
   linkType: hard
 
@@ -4315,137 +4265,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/medusa-cli@^1.3.3, @medusajs/medusa-cli@workspace:packages/medusa-cli":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/medusa-cli@workspace:packages/medusa-cli"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/polyfill": ^7.8.7
-    "@babel/preset-env": ^7.7.5
-    "@babel/runtime": ^7.9.6
-    axios: ^0.21.1
-    chalk: ^4.0.0
-    configstore: 5.0.1
-    core-js: ^3.6.5
-    cross-env: ^5.2.1
-    dotenv: ^8.2.0
-    execa: ^5.1.1
-    fs-exists-cached: ^1.0.0
-    fs-extra: ^10.0.0
-    hosted-git-info: ^4.0.2
-    inquirer: ^8.0.0
-    is-valid-path: ^0.1.1
-    jest: ^25.5.2
-    meant: ^1.0.1
-    medusa-core-utils: ^1.1.31
-    medusa-telemetry: 0.0.13
-    netrc-parser: ^3.1.6
-    open: ^8.0.6
-    ora: ^5.4.1
-    pg-god: ^1.0.11
-    prompts: ^2.4.1
-    regenerator-runtime: ^0.13.5
-    resolve-cwd: ^3.0.0
-    stack-trace: ^0.0.10
-    ulid: ^2.3.0
-    url: ^0.11.0
-    winston: ^3.3.3
-    yargs: ^15.3.1
-  bin:
-    medusa: cli.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/medusa-js@^1.3.2, @medusajs/medusa-js@workspace:packages/medusa-js":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/medusa-js@workspace:packages/medusa-js"
-  dependencies:
-    "@medusajs/medusa": ^1.6.0
-    "@types/jest": ^26.0.19
-    axios: ^0.24.0
-    cross-env: ^7.0.3
-    form-data: ^4.0.0
-    jest: ^26.6.3
-    qs: ^6.10.3
-    retry-axios: ^2.6.0
-    typescript: ^4.1.3
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/medusa@^1.3.3, @medusajs/medusa@^1.6.0, @medusajs/medusa@workspace:packages/medusa":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/medusa@workspace:packages/medusa"
-  dependencies:
-    "@babel/cli": ^7.14.3
-    "@babel/core": ^7.14.3
-    "@babel/preset-typescript": ^7.13.0
-    "@medusajs/medusa-cli": ^1.3.3
-    "@types/express": ^4.17.13
-    "@types/ioredis": ^4.28.10
-    "@types/jest": ^27.5.0
-    "@types/jsonwebtoken": ^8.5.5
-    "@types/lodash": ^4.14.168
-    "@types/multer": ^1.4.7
-    awilix: ^4.2.3
-    babel-preset-medusa-package: ^1.1.19
-    body-parser: ^1.19.0
-    bull: ^3.12.1
-    chokidar: ^3.4.2
-    class-transformer: ^0.5.1
-    class-validator: ^0.13.1
-    connect-redis: ^5.0.0
-    cookie-parser: ^1.4.4
-    core-js: ^3.6.5
-    cors: ^2.8.5
-    cross-env: ^5.2.1
-    cross-spawn: ^7.0.3
-    express: ^4.17.1
-    express-session: ^1.17.1
-    fs-exists-cached: ^1.0.0
-    glob: ^7.1.6
-    ioredis: ^4.17.3
-    ioredis-mock: ^5.6.0
-    iso8601-duration: ^1.3.0
-    jest: ^25.5.2
-    jsonwebtoken: ^8.5.1
-    medusa-core-utils: ^1.1.34
-    medusa-interfaces: ^1.3.3
-    medusa-test-utils: ^1.1.37
-    morgan: ^1.9.1
-    multer: ^1.4.2
-    node-schedule: ^2.1.0
-    nodemon: ^2.0.1
-    papaparse: ^5.3.2
-    passport: ^0.4.0
-    passport-http-bearer: ^1.0.1
-    passport-jwt: ^4.0.0
-    passport-local: ^1.0.0
-    pg: ^8.5.1
-    randomatic: ^3.1.1
-    redis: ^3.0.2
-    reflect-metadata: ^0.1.13
-    request-ip: ^2.1.3
-    resolve-cwd: ^3.0.0
-    scrypt-kdf: ^2.0.1
-    sqlite3: ^5.0.2
-    supertest: ^4.0.2
-    ts-jest: ^25.5.1
-    typescript: ^4.4.4
-    ulid: ^2.3.0
-    uuid: ^8.3.1
-    winston: ^3.2.1
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-    typeorm: 0.2.x
-  bin:
-    medusa: ./cli.js
-  languageName: unknown
-  linkType: soft
-
 "@microsoft/fetch-event-source@npm:2.0.1":
   version: 2.0.1
   resolution: "@microsoft/fetch-event-source@npm:2.0.1"
@@ -5273,6 +5092,1037 @@ __metadata:
   checksum: 1ce08dc24c5eb69d2e0fd5d8a847b61cac494343c24325194c288cb5a5c3c815164e28253f804693acb7dccc56cdca5ad11be398784e359d439d0deeb059a04a
   languageName: node
   linkType: hard
+
+"@pkorsholm/babel-preset-medusa-package@^1.1.19, @pkorsholm/babel-preset-medusa-package@workspace:packages/babel-preset-medusa-package":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/babel-preset-medusa-package@workspace:packages/babel-preset-medusa-package"
+  dependencies:
+    "@babel/plugin-proposal-class-properties": ^7.12.1
+    "@babel/plugin-proposal-decorators": ^7.12.1
+    "@babel/plugin-proposal-optional-chaining": ^7.14.2
+    "@babel/plugin-transform-classes": ^7.12.1
+    "@babel/plugin-transform-instanceof": ^7.12.1
+    "@babel/plugin-transform-runtime": ^7.12.1
+    "@babel/preset-env": ^7.12.7
+    "@babel/preset-typescript": ^7.16.0
+    babel-plugin-transform-typescript-metadata: ^0.3.1
+    core-js: ^3.7.0
+  peerDependencies:
+    "@babel/core": ^7.11.6
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/create-medusa-app@workspace:packages/create-medusa-app":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/create-medusa-app@workspace:packages/create-medusa-app"
+  dependencies:
+    "@ascorbic/worker-threads-shim": ^1.0.0
+    "@babel/runtime": ^7.15.4
+    "@types/chalk": ^2.2.0
+    "@types/commander": ^2.12.2
+    "@types/configstore": ^4.0.0
+    "@types/fs-extra": ^9.0.12
+    "@types/node": ^14.17.14
+    ansi-wordwrap: ^1.0.2
+    chalk: ^4.1.2
+    commander: ^8.1.0
+    common-tags: ^1.8.0
+    configstore: ^6.0.0
+    enquirer: ^2.3.6
+    execa: ^5.1.1
+    fs-exists-cached: ^1.0.0
+    fs-extra: ^10.0.0
+    hosted-git-info: ^4.0.2
+    is-valid-path: ^0.1.1
+    microbundle: ^0.13.3
+    node-fetch: ^2.6.1
+    prompts: ^2.4.1
+    string-length: ^4.0.2
+    terminal-link: ^2.1.1
+    tiny-spin: ^1.0.2
+    url: ^0.11.0
+    uuid: 3.4.0
+  bin:
+    create-medusa-app: cli.js
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/gatsby-source-medusa@workspace:packages/gatsby-source-medusa":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/gatsby-source-medusa@workspace:packages/gatsby-source-medusa"
+  dependencies:
+    "@types/jest": ^27.0.1
+    axios: ^0.24.0
+    babel-plugin-polyfill-corejs2: ^0.3.0
+    babel-preset-gatsby-package: ^2.0.0
+    gatsby: ^4.1.0
+    gatsby-core-utils: ^3.3.0
+    gatsby-plugin-image: ^2.3.0
+    gatsby-source-filesystem: ^4.3.0
+    jest: ^27.0.6
+    tsc-watch: ^4.5.0
+    typescript: ^4.5.2
+  peerDependencies:
+    gatsby: ^4.1.0
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-cli@^1.3.3, @pkorsholm/medusa-cli@workspace:packages/medusa-cli":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-cli@workspace:packages/medusa-cli"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/polyfill": ^7.8.7
+    "@babel/preset-env": ^7.7.5
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    axios: ^0.21.1
+    chalk: ^4.0.0
+    configstore: 5.0.1
+    core-js: ^3.6.5
+    cross-env: ^5.2.1
+    dotenv: ^8.2.0
+    execa: ^5.1.1
+    fs-exists-cached: ^1.0.0
+    fs-extra: ^10.0.0
+    hosted-git-info: ^4.0.2
+    inquirer: ^8.0.0
+    is-valid-path: ^0.1.1
+    jest: ^25.5.2
+    meant: ^1.0.1
+    medusa-telemetry: 0.0.13
+    netrc-parser: ^3.1.6
+    open: ^8.0.6
+    ora: ^5.4.1
+    pg-god: ^1.0.11
+    prompts: ^2.4.1
+    regenerator-runtime: ^0.13.5
+    resolve-cwd: ^3.0.0
+    stack-trace: ^0.0.10
+    ulid: ^2.3.0
+    url: ^0.11.0
+    winston: ^3.3.3
+    yargs: ^15.3.1
+  bin:
+    medusa: cli.js
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-core-utils@^1.1.31, @pkorsholm/medusa-core-utils@^1.1.32, @pkorsholm/medusa-core-utils@^1.1.34, @pkorsholm/medusa-core-utils@workspace:packages/medusa-core-utils":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-core-utils@workspace:packages/medusa-core-utils"
+  dependencies:
+    "@babel/cli": ^7.13.0
+    "@babel/core": ^7.13.8
+    "@babel/plugin-proposal-class-properties": ^7.13.0
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.13.9
+    "@babel/preset-typescript": ^7.16.0
+    "@babel/runtime": ^7.13.9
+    class-transformer: ^0.5.1
+    class-validator: ^0.13.1
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+    joi: ^17.3.0
+    joi-objectid: ^3.0.1
+    typescript: ^4.4.4
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-dev-cli@workspace:packages/medusa-dev-cli":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-dev-cli@workspace:packages/medusa-dev-cli"
+  dependencies:
+    "@babel/cli": ^7.12.1
+    "@babel/core": ^7.12.3
+    "@babel/runtime": ^7.12.5
+    babel-preset-medusa-package: ^1.1.19
+    chokidar: ^3.5.0
+    configstore: ^5.0.1
+    cross-env: ^7.0.3
+    del: ^6.0.0
+    execa: ^4.1.0
+    find-yarn-workspace-root: ^2.0.0
+    fs-extra: ^9.0.1
+    got: ^11.8.5
+    is-absolute: ^1.0.0
+    jest: ^25.5.2
+    lodash: ^4.17.21
+    signal-exit: ^3.0.3
+    verdaccio: ^4.10.0
+    yargs: ^15.4.1
+  bin:
+    medusa-dev: ./dist/index.js
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-file-minio@workspace:packages/medusa-file-minio":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-file-minio@workspace:packages/medusa-file-minio"
+  dependencies:
+    "@babel/cli": ^7.16.0
+    "@babel/core": ^7.16.0
+    "@babel/node": ^7.16.0
+    "@babel/plugin-proposal-class-properties": ^7.16.0
+    "@babel/plugin-transform-classes": ^7.16.0
+    "@babel/plugin-transform-instanceof": ^7.16.0
+    "@babel/plugin-transform-runtime": ^7.16.4
+    "@babel/preset-env": ^7.16.4
+    "@babel/register": ^7.16.0
+    "@babel/runtime": ^7.16.3
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    aws-sdk: ^2.1043.0
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-file-s3@workspace:packages/medusa-file-s3":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-file-s3@workspace:packages/medusa-file-s3"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.15.4
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.32
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    aws-sdk: ^2.983.0
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-file-spaces@workspace:packages/medusa-file-spaces":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-file-spaces@workspace:packages/medusa-file-spaces"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    aws-sdk: ^2.710.0
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    stripe: ^8.50.0
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-fulfillment-manual@workspace:packages/medusa-fulfillment-manual":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-fulfillment-manual@workspace:packages/medusa-fulfillment-manual"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-fulfillment-webshipper@workspace:packages/medusa-fulfillment-webshipper":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-fulfillment-webshipper@workspace:packages/medusa-fulfillment-webshipper"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-instanceof": ^7.12.13
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa": ^1.3.3
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    axios: ^0.20.0
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cors: ^2.8.5
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-interfaces@^1.3.1, @pkorsholm/medusa-interfaces@^1.3.3, @pkorsholm/medusa-interfaces@workspace:packages/medusa-interfaces":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-interfaces@workspace:packages/medusa-interfaces"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/preset-typescript": ^7.13.0
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+    typeorm: ^0.2.29
+    typescript: ^4.4.4
+  peerDependencies:
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    typeorm: 0.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-js@^1.3.2, @pkorsholm/medusa-js@workspace:packages/medusa-js":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-js@workspace:packages/medusa-js"
+  dependencies:
+    "@pkorsholm/medusa": ^1.6.0
+    "@types/jest": ^26.0.19
+    axios: ^0.24.0
+    cross-env: ^7.0.3
+    form-data: ^4.0.0
+    jest: ^26.6.3
+    qs: ^6.10.3
+    retry-axios: ^2.6.0
+    typescript: ^4.1.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-payment-adyen@workspace:packages/medusa-payment-adyen":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-payment-adyen@workspace:packages/medusa-payment-adyen"
+  dependencies:
+    "@adyen/api-library": ^5.0.1
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    axios: ^0.19.2
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cors: ^2.8.5
+    cross-env: ^7.0.2
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-payment-klarna@workspace:packages/medusa-payment-klarna":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-payment-klarna@workspace:packages/medusa-payment-klarna"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.32
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    axios: ^0.21.0
+    axios-mock-adapter: ^1.19.0
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-payment-manual@workspace:packages/medusa-payment-manual":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-payment-manual@workspace:packages/medusa-payment-manual"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-proposal-optional-chaining": ^7.12.7
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-payment-paypal@workspace:packages/medusa-payment-paypal":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-payment-paypal@workspace:packages/medusa-payment-paypal"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-proposal-optional-chaining": ^7.12.7
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@paypal/checkout-server-sdk": ^1.0.2
+    "@pkorsholm/medusa-core-utils": ^1.1.32
+    "@pkorsholm/medusa-interfaces": ^1.3.3
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-payment-stripe@workspace:packages/medusa-payment-stripe":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-payment-stripe@workspace:packages/medusa-payment-stripe"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-proposal-optional-chaining": ^7.12.7
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.32
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    stripe: ^8.50.0
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-algolia@workspace:packages/medusa-plugin-algolia":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-algolia@workspace:packages/medusa-plugin-algolia"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-interfaces": ^1.3.3
+    algoliasearch: ^4.10.5
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+    lodash: ^4.17.21
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+    typeorm: 0.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-brightpearl@workspace:packages/medusa-plugin-brightpearl":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-brightpearl@workspace:packages/medusa-plugin-brightpearl"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.34
+    "@pkorsholm/medusa-interfaces": ^1.3.1
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    axios: ^0.19.2
+    axios-mock-adapter: ^1.18.2
+    axios-mock-server: ^0.19.0
+    axios-rate-limit: ^1.2.1
+    client-sessions: ^0.8.0
+    cross-env: ^7.0.2
+    express: ^4.17.1
+    jest: ^25.5.2
+    randomatic: ^3.1.1
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-contentful@workspace:packages/medusa-plugin-contentful":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-contentful@workspace:packages/medusa-plugin-contentful"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    contentful-management: ^5.27.1
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    redis: ^3.0.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-discount-generator@workspace:packages/medusa-plugin-discount-generator":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-discount-generator@workspace:packages/medusa-plugin-discount-generator"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.34
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    randomatic: ^3.1.1
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-economic@workspace:packages/medusa-plugin-economic":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-economic@workspace:packages/medusa-plugin-economic"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    axios: ^0.19.2
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    moment: ^2.27.0
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-ip-lookup@workspace:packages/medusa-plugin-ip-lookup":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-ip-lookup@workspace:packages/medusa-plugin-ip-lookup"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/runtime": ^7.7.6
+    axios: ^0.20.0
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-mailchimp@workspace:packages/medusa-plugin-mailchimp":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-mailchimp@workspace:packages/medusa-plugin-mailchimp"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cors: ^2.8.5
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    mailchimp-api-v3: ^1.14.0
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-meilisearch@workspace:packages/medusa-plugin-meilisearch":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-meilisearch@workspace:packages/medusa-plugin-meilisearch"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+    lodash: ^4.17.21
+    meilisearch: 0.27.0
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-restock-notification@workspace:packages/medusa-plugin-restock-notification":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-restock-notification@workspace:packages/medusa-plugin-restock-notification"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/plugin-transform-typescript": ^7.13.0
+    "@babel/preset-typescript": ^7.12.7
+    "@pkorsholm/babel-preset-medusa-package": ^1.1.19
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    body-parser: ^1.19.0
+    cors: ^2.8.5
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    pg: ^8.5.1
+    ulid: ^2.3.0
+  peerDependencies:
+    "@pkorsholm/medusa": ^1.6.1
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-segment@workspace:packages/medusa-plugin-segment":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-segment@workspace:packages/medusa-plugin-segment"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    analytics-node: ^3.4.0-beta.1
+    axios: ^0.19.2
+    body-parser: ^1.19.0
+    cross-env: ^5.2.1
+    eslint: ^6.8.0
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-sendgrid@workspace:packages/medusa-plugin-sendgrid":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-sendgrid@workspace:packages/medusa-plugin-sendgrid"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@sendgrid/mail": ^7.1.1
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-slack-notification@workspace:packages/medusa-plugin-slack-notification":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-slack-notification@workspace:packages/medusa-plugin-slack-notification"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    axios: ^0.19.2
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+    moment: ^2.27.0
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-twilio-sms@workspace:packages/medusa-plugin-twilio-sms":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-twilio-sms@workspace:packages/medusa-plugin-twilio-sms"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    body-parser: ^1.19.0
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+    twilio: ^3.49.1
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-plugin-wishlist@workspace:packages/medusa-plugin-wishlist":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-plugin-wishlist@workspace:packages/medusa-plugin-wishlist"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/node": ^7.7.4
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-instanceof": ^7.8.3
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/register": ^7.7.4
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    body-parser: ^1.19.0
+    cors: ^2.8.5
+    cross-env: ^5.2.1
+    express: ^4.17.1
+    jest: ^25.5.2
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-react@workspace:packages/medusa-react":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-react@workspace:packages/medusa-react"
+  dependencies:
+    "@babel/core": ^7.16.0
+    "@pkorsholm/medusa-js": ^1.3.2
+    "@size-limit/preset-small-lib": ^6.0.4
+    "@storybook/addon-contexts": ^5.3.21
+    "@storybook/addon-essentials": ^6.3.12
+    "@storybook/addon-info": ^5.3.21
+    "@storybook/addon-links": ^6.3.12
+    "@storybook/addons": ^6.3.12
+    "@storybook/react": ^6.3.12
+    "@testing-library/react": ^12.1.2
+    "@testing-library/react-hooks": ^7.0.2
+    "@types/jest": ^27.0.3
+    "@types/lodash": ^4.14.177
+    "@types/react": ^17.0.33
+    "@types/react-dom": ^17.0.10
+    axios: ^0.24.0
+    babel-loader: ^8.2.3
+    dts-cli: ^1.5.1
+    husky: ^7.0.4
+    lodash: ^4.17.21
+    lodash-es: ^4.17.21
+    msw: ^0.35.0
+    msw-storybook-addon: ^1.5.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-is: ^17.0.2
+    react-json-view: ^1.21.3
+    react-query: ^3.31.0
+    size-limit: ^6.0.4
+    ts-jest: ^27.1.4
+    tslib: ^2.3.1
+  peerDependencies:
+    "@pkorsholm/medusa": ^1.6.0
+    react: ">=16"
+    react-query: ">= 3.29.0"
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-source-shopify@workspace:packages/medusa-source-shopify":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-source-shopify@workspace:packages/medusa-source-shopify"
+  dependencies:
+    "@babel/cli": ^7.15.4
+    "@babel/core": ^7.15.5
+    "@babel/node": ^7.15.4
+    "@babel/plugin-proposal-class-properties": ^7.14.5
+    "@babel/plugin-transform-classes": ^7.15.4
+    "@babel/plugin-transform-instanceof": ^7.14.5
+    "@babel/plugin-transform-runtime": ^7.15.0
+    "@babel/preset-env": ^7.15.6
+    "@babel/register": ^7.15.3
+    "@babel/runtime": ^7.15.4
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-interfaces": ^1.3.3
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@shopify/shopify-api": ^1.4.1
+    axios: ^0.21.4
+    body-parser: ^1.19.0
+    client-sessions: ^0.8.0
+    cross-env: ^7.0.3
+    express: ^4.17.1
+    ioredis: ^4.27.9
+    jest: ^26.6.3
+    lodash: ^4.17.21
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+    typeorm: 0.x
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-telemetry@workspace:packages/medusa-telemetry":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-telemetry@workspace:packages/medusa-telemetry"
+  dependencies:
+    "@babel/cli": ^7.14.3
+    "@babel/core": ^7.14.3
+    "@babel/preset-typescript": ^7.15.0
+    "@pkorsholm/babel-preset-medusa-package": ^1.1.19
+    axios: ^0.21.1
+    axios-retry: ^3.1.9
+    boxen: ^5.0.1
+    ci-info: ^3.2.0
+    configstore: 5.0.1
+    cross-env: ^5.2.1
+    global: ^4.4.0
+    is-docker: ^2.2.1
+    jest: ^25.5.2
+    nodemon: ^2.0.1
+    remove-trailing-slash: ^0.1.1
+    uuid: ^8.3.2
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa-test-utils@^1.1.37, @pkorsholm/medusa-test-utils@workspace:packages/medusa-test-utils":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa-test-utils@workspace:packages/medusa-test-utils"
+  dependencies:
+    "@babel/cli": ^7.7.5
+    "@babel/core": ^7.7.5
+    "@babel/plugin-proposal-class-properties": ^7.7.4
+    "@babel/plugin-transform-classes": ^7.9.5
+    "@babel/plugin-transform-runtime": ^7.7.6
+    "@babel/preset-env": ^7.7.5
+    "@babel/runtime": ^7.9.6
+    "@pkorsholm/medusa-core-utils": ^1.1.31
+    cross-env: ^5.2.1
+    jest: ^25.5.2
+    randomatic: ^3.1.1
+  languageName: unknown
+  linkType: soft
+
+"@pkorsholm/medusa@^1.3.3, @pkorsholm/medusa@^1.6.0, @pkorsholm/medusa@workspace:packages/medusa":
+  version: 0.0.0-use.local
+  resolution: "@pkorsholm/medusa@workspace:packages/medusa"
+  dependencies:
+    "@babel/cli": ^7.14.3
+    "@babel/core": ^7.14.3
+    "@babel/preset-typescript": ^7.13.0
+    "@pkorsholm/medusa-cli": ^1.3.3
+    "@pkorsholm/medusa-core-utils": ^1.1.34
+    "@pkorsholm/medusa-interfaces": ^1.3.3
+    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@types/express": ^4.17.13
+    "@types/ioredis": ^4.28.10
+    "@types/jest": ^27.5.0
+    "@types/jsonwebtoken": ^8.5.5
+    "@types/lodash": ^4.14.168
+    "@types/multer": ^1.4.7
+    awilix: ^4.2.3
+    babel-preset-medusa-package: ^1.1.19
+    body-parser: ^1.19.0
+    bull: ^3.12.1
+    chokidar: ^3.4.2
+    class-transformer: ^0.5.1
+    class-validator: ^0.13.1
+    connect-redis: ^5.0.0
+    cookie-parser: ^1.4.4
+    core-js: ^3.6.5
+    cors: ^2.8.5
+    cross-env: ^5.2.1
+    cross-spawn: ^7.0.3
+    express: ^4.17.1
+    express-session: ^1.17.1
+    fs-exists-cached: ^1.0.0
+    glob: ^7.1.6
+    ioredis: ^4.17.3
+    ioredis-mock: ^5.6.0
+    iso8601-duration: ^1.3.0
+    jest: ^25.5.2
+    jsonwebtoken: ^8.5.1
+    morgan: ^1.9.1
+    multer: ^1.4.2
+    node-schedule: ^2.1.0
+    nodemon: ^2.0.1
+    papaparse: ^5.3.2
+    passport: ^0.4.0
+    passport-http-bearer: ^1.0.1
+    passport-jwt: ^4.0.0
+    passport-local: ^1.0.0
+    pg: ^8.5.1
+    randomatic: ^3.1.1
+    redis: ^3.0.2
+    reflect-metadata: ^0.1.13
+    request-ip: ^2.1.3
+    resolve-cwd: ^3.0.0
+    scrypt-kdf: ^2.0.1
+    sqlite3: ^5.0.2
+    supertest: ^4.0.2
+    ts-jest: ^25.5.1
+    typescript: ^4.4.4
+    ulid: ^2.3.0
+    uuid: ^8.3.1
+    winston: ^3.2.1
+  peerDependencies:
+    "@pkorsholm/medusa-interfaces": 1.3.3
+    typeorm: 0.2.x
+  bin:
+    medusa: ./cli.js
+  languageName: unknown
+  linkType: soft
 
 "@pmmmwh/react-refresh-webpack-plugin@npm:^0.4.3":
   version: 0.4.3
@@ -10860,9 +11710,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-medusa-package@^1.0.0, babel-preset-medusa-package@^1.1.19, babel-preset-medusa-package@workspace:packages/babel-preset-medusa-package":
-  version: 0.0.0-use.local
-  resolution: "babel-preset-medusa-package@workspace:packages/babel-preset-medusa-package"
+"babel-preset-medusa-package@npm:^1.0.0, babel-preset-medusa-package@npm:^1.1.19":
+  version: 1.1.20
+  resolution: "babel-preset-medusa-package@npm:1.1.20"
   dependencies:
     "@babel/plugin-proposal-class-properties": ^7.12.1
     "@babel/plugin-proposal-decorators": ^7.12.1
@@ -10876,8 +11726,9 @@ __metadata:
     core-js: ^3.7.0
   peerDependencies:
     "@babel/core": ^7.11.6
-  languageName: unknown
-  linkType: soft
+  checksum: 597a3aa1aac8460af95c72819702e770a4a023ec7554f55ef938dcca433dd3f26e3e149b3fd33df4b8249300dc29014a5b0382e88a11ece373b8669561783e52
+  languageName: node
+  linkType: hard
 
 "backo2@npm:^1.0.2, backo2@npm:~1.0.2":
   version: 1.0.2
@@ -13116,41 +13967,6 @@ __metadata:
   checksum: 24332bab51011652a9a0a6d160eed1e8caa091b802335324ae056b0dcb5acbc9fcf173cf10d128eba8548c3ce98dfa4eadaa01bd02f44a34414baee26b651835
   languageName: node
   linkType: hard
-
-"create-medusa-app@workspace:packages/create-medusa-app":
-  version: 0.0.0-use.local
-  resolution: "create-medusa-app@workspace:packages/create-medusa-app"
-  dependencies:
-    "@ascorbic/worker-threads-shim": ^1.0.0
-    "@babel/runtime": ^7.15.4
-    "@types/chalk": ^2.2.0
-    "@types/commander": ^2.12.2
-    "@types/configstore": ^4.0.0
-    "@types/fs-extra": ^9.0.12
-    "@types/node": ^14.17.14
-    ansi-wordwrap: ^1.0.2
-    chalk: ^4.1.2
-    commander: ^8.1.0
-    common-tags: ^1.8.0
-    configstore: ^6.0.0
-    enquirer: ^2.3.6
-    execa: ^5.1.1
-    fs-exists-cached: ^1.0.0
-    fs-extra: ^10.0.0
-    hosted-git-info: ^4.0.2
-    is-valid-path: ^0.1.1
-    microbundle: ^0.13.3
-    node-fetch: ^2.6.1
-    prompts: ^2.4.1
-    string-length: ^4.0.2
-    terminal-link: ^2.1.1
-    tiny-spin: ^1.0.2
-    url: ^0.11.0
-    uuid: 3.4.0
-  bin:
-    create-medusa-app: cli.js
-  languageName: unknown
-  linkType: soft
 
 "create-react-context@npm:0.3.0":
   version: 0.3.0
@@ -17409,26 +18225,6 @@ __metadata:
   checksum: e8316f592dbeaba0470de64448417e760767777aee4fe9c1568bd9af5101933909334bf4951a0377458671af6c727c92e4d9bacc2af0f9cd76f6b4d0641828e8
   languageName: node
   linkType: hard
-
-"gatsby-source-medusa@workspace:packages/gatsby-source-medusa":
-  version: 0.0.0-use.local
-  resolution: "gatsby-source-medusa@workspace:packages/gatsby-source-medusa"
-  dependencies:
-    "@types/jest": ^27.0.1
-    axios: ^0.24.0
-    babel-plugin-polyfill-corejs2: ^0.3.0
-    babel-preset-gatsby-package: ^2.0.0
-    gatsby: ^4.1.0
-    gatsby-core-utils: ^3.3.0
-    gatsby-plugin-image: ^2.3.0
-    gatsby-source-filesystem: ^4.3.0
-    jest: ^27.0.6
-    tsc-watch: ^4.5.0
-    typescript: ^4.5.2
-  peerDependencies:
-    gatsby: ^4.1.0
-  languageName: unknown
-  linkType: soft
 
 "gatsby-telemetry@npm:^3.18.0":
   version: 3.18.0
@@ -23594,841 +24390,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"medusa-core-utils@^1.1.31, medusa-core-utils@^1.1.32, medusa-core-utils@^1.1.34, medusa-core-utils@workspace:packages/medusa-core-utils":
-  version: 0.0.0-use.local
-  resolution: "medusa-core-utils@workspace:packages/medusa-core-utils"
+"medusa-telemetry@npm:0.0.13":
+  version: 0.0.13
+  resolution: "medusa-telemetry@npm:0.0.13"
   dependencies:
-    "@babel/cli": ^7.13.0
-    "@babel/core": ^7.13.8
-    "@babel/plugin-proposal-class-properties": ^7.13.0
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.13.9
-    "@babel/preset-typescript": ^7.16.0
-    "@babel/runtime": ^7.13.9
-    class-transformer: ^0.5.1
-    class-validator: ^0.13.1
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-    joi: ^17.3.0
-    joi-objectid: ^3.0.1
-    typescript: ^4.4.4
-  languageName: unknown
-  linkType: soft
-
-"medusa-core-utils@npm:^0.1.27":
-  version: 0.1.39
-  resolution: "medusa-core-utils@npm:0.1.39"
-  dependencies:
-    "@hapi/joi": ^16.1.8
-    joi-objectid: ^3.0.1
-  checksum: 7c5d51de35e96312fd34e7c7b3b23cdcce197bbdad672234d766a44abe1b22cfccb28855d496b5e422558d72e87808e826ef2ef80189eaa45bdfba84942f2c8c
-  languageName: node
-  linkType: hard
-
-"medusa-dev-cli@workspace:packages/medusa-dev-cli":
-  version: 0.0.0-use.local
-  resolution: "medusa-dev-cli@workspace:packages/medusa-dev-cli"
-  dependencies:
-    "@babel/cli": ^7.12.1
-    "@babel/core": ^7.12.3
-    "@babel/runtime": ^7.12.5
-    babel-preset-medusa-package: ^1.1.19
-    chokidar: ^3.5.0
-    configstore: ^5.0.1
-    cross-env: ^7.0.3
-    del: ^6.0.0
-    execa: ^4.1.0
-    find-yarn-workspace-root: ^2.0.0
-    fs-extra: ^9.0.1
-    got: ^11.8.5
-    is-absolute: ^1.0.0
-    jest: ^25.5.2
-    lodash: ^4.17.21
-    signal-exit: ^3.0.3
-    verdaccio: ^4.10.0
-    yargs: ^15.4.1
-  bin:
-    medusa-dev: ./dist/index.js
-  languageName: unknown
-  linkType: soft
-
-"medusa-file-minio@workspace:packages/medusa-file-minio":
-  version: 0.0.0-use.local
-  resolution: "medusa-file-minio@workspace:packages/medusa-file-minio"
-  dependencies:
-    "@babel/cli": ^7.16.0
-    "@babel/core": ^7.16.0
-    "@babel/node": ^7.16.0
-    "@babel/plugin-proposal-class-properties": ^7.16.0
-    "@babel/plugin-transform-classes": ^7.16.0
-    "@babel/plugin-transform-instanceof": ^7.16.0
-    "@babel/plugin-transform-runtime": ^7.16.4
-    "@babel/preset-env": ^7.16.4
-    "@babel/register": ^7.16.0
-    "@babel/runtime": ^7.16.3
-    aws-sdk: ^2.1043.0
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-file-s3@workspace:packages/medusa-file-s3":
-  version: 0.0.0-use.local
-  resolution: "medusa-file-s3@workspace:packages/medusa-file-s3"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.15.4
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    aws-sdk: ^2.983.0
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.32
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-file-spaces@workspace:packages/medusa-file-spaces":
-  version: 0.0.0-use.local
-  resolution: "medusa-file-spaces@workspace:packages/medusa-file-spaces"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    aws-sdk: ^2.710.0
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-    stripe: ^8.50.0
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-fulfillment-manual@workspace:packages/medusa-fulfillment-manual":
-  version: 0.0.0-use.local
-  resolution: "medusa-fulfillment-manual@workspace:packages/medusa-fulfillment-manual"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/runtime": ^7.9.6
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-fulfillment-webshipper@workspace:packages/medusa-fulfillment-webshipper":
-  version: 0.0.0-use.local
-  resolution: "medusa-fulfillment-webshipper@workspace:packages/medusa-fulfillment-webshipper"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-instanceof": ^7.12.13
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/runtime": ^7.9.6
-    "@medusajs/medusa": ^1.3.3
-    axios: ^0.20.0
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cors: ^2.8.5
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-interfaces@^1.3.1, medusa-interfaces@^1.3.3, medusa-interfaces@workspace:packages/medusa-interfaces":
-  version: 0.0.0-use.local
-  resolution: "medusa-interfaces@workspace:packages/medusa-interfaces"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/preset-typescript": ^7.13.0
-    "@babel/runtime": ^7.9.6
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-    typeorm: ^0.2.29
-    typescript: ^4.4.4
-  peerDependencies:
-    medusa-core-utils: ^1.1.31
-    typeorm: 0.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-payment-adyen@workspace:packages/medusa-payment-adyen":
-  version: 0.0.0-use.local
-  resolution: "medusa-payment-adyen@workspace:packages/medusa-payment-adyen"
-  dependencies:
-    "@adyen/api-library": ^5.0.1
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    axios: ^0.19.2
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cors: ^2.8.5
-    cross-env: ^7.0.2
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-payment-klarna@workspace:packages/medusa-payment-klarna":
-  version: 0.0.0-use.local
-  resolution: "medusa-payment-klarna@workspace:packages/medusa-payment-klarna"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    axios: ^0.21.0
-    axios-mock-adapter: ^1.19.0
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.32
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-payment-manual@workspace:packages/medusa-payment-manual":
-  version: 0.0.0-use.local
-  resolution: "medusa-payment-manual@workspace:packages/medusa-payment-manual"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-proposal-optional-chaining": ^7.12.7
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-payment-paypal@workspace:packages/medusa-payment-paypal":
-  version: 0.0.0-use.local
-  resolution: "medusa-payment-paypal@workspace:packages/medusa-payment-paypal"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-proposal-optional-chaining": ^7.12.7
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    "@paypal/checkout-server-sdk": ^1.0.2
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.32
-    medusa-interfaces: ^1.3.3
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-payment-stripe@workspace:packages/medusa-payment-stripe":
-  version: 0.0.0-use.local
-  resolution: "medusa-payment-stripe@workspace:packages/medusa-payment-stripe"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-proposal-optional-chaining": ^7.12.7
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.32
-    medusa-test-utils: ^1.1.37
-    stripe: ^8.50.0
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-algolia@workspace:packages/medusa-plugin-algolia":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-algolia@workspace:packages/medusa-plugin-algolia"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    algoliasearch: ^4.10.5
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-    lodash: ^4.17.21
-    medusa-core-utils: ^1.1.31
-    medusa-interfaces: ^1.3.3
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-    typeorm: 0.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-brightpearl@workspace:packages/medusa-plugin-brightpearl":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-brightpearl@workspace:packages/medusa-plugin-brightpearl"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    axios: ^0.19.2
-    axios-mock-adapter: ^1.18.2
-    axios-mock-server: ^0.19.0
-    axios-rate-limit: ^1.2.1
-    client-sessions: ^0.8.0
-    cross-env: ^7.0.2
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.34
-    medusa-interfaces: ^1.3.1
-    medusa-test-utils: ^1.1.37
-    randomatic: ^3.1.1
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-contentful@workspace:packages/medusa-plugin-contentful":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-contentful@workspace:packages/medusa-plugin-contentful"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    contentful-management: ^5.27.1
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-    redis: ^3.0.2
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-discount-generator@workspace:packages/medusa-plugin-discount-generator":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-discount-generator@workspace:packages/medusa-plugin-discount-generator"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^0.1.27
-    randomatic: ^3.1.1
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-economic@workspace:packages/medusa-plugin-economic":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-economic@workspace:packages/medusa-plugin-economic"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    axios: ^0.19.2
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-    moment: ^2.27.0
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-ip-lookup@workspace:packages/medusa-plugin-ip-lookup":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-ip-lookup@workspace:packages/medusa-plugin-ip-lookup"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/runtime": ^7.7.6
-    axios: ^0.20.0
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-mailchimp@workspace:packages/medusa-plugin-mailchimp":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-mailchimp@workspace:packages/medusa-plugin-mailchimp"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cors: ^2.8.5
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    mailchimp-api-v3: ^1.14.0
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-meilisearch@workspace:packages/medusa-plugin-meilisearch":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-meilisearch@workspace:packages/medusa-plugin-meilisearch"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-    lodash: ^4.17.21
-    medusa-core-utils: ^1.1.31
-    meilisearch: 0.27.0
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-restock-notification@workspace:packages/medusa-plugin-restock-notification":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-restock-notification@workspace:packages/medusa-plugin-restock-notification"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/plugin-transform-typescript": ^7.13.0
-    "@babel/preset-typescript": ^7.12.7
-    babel-preset-medusa-package: ^1.1.19
-    body-parser: ^1.19.0
-    cors: ^2.8.5
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-    pg: ^8.5.1
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/medusa": 1.4.0
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-segment@workspace:packages/medusa-plugin-segment":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-segment@workspace:packages/medusa-plugin-segment"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    analytics-node: ^3.4.0-beta.1
-    axios: ^0.19.2
-    body-parser: ^1.19.0
-    cross-env: ^5.2.1
-    eslint: ^6.8.0
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-sendgrid@workspace:packages/medusa-plugin-sendgrid":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-sendgrid@workspace:packages/medusa-plugin-sendgrid"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    "@sendgrid/mail": ^7.1.1
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-slack-notification@workspace:packages/medusa-plugin-slack-notification":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-slack-notification@workspace:packages/medusa-plugin-slack-notification"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    axios: ^0.19.2
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-    moment: ^2.27.0
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-twilio-sms@workspace:packages/medusa-plugin-twilio-sms":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-twilio-sms@workspace:packages/medusa-plugin-twilio-sms"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    body-parser: ^1.19.0
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-    twilio: ^3.49.1
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-plugin-wishlist@workspace:packages/medusa-plugin-wishlist":
-  version: 0.0.0-use.local
-  resolution: "medusa-plugin-wishlist@workspace:packages/medusa-plugin-wishlist"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/node": ^7.7.4
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-instanceof": ^7.8.3
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/register": ^7.7.4
-    "@babel/runtime": ^7.9.6
-    body-parser: ^1.19.0
-    cors: ^2.8.5
-    cross-env: ^5.2.1
-    express: ^4.17.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-react@workspace:packages/medusa-react":
-  version: 0.0.0-use.local
-  resolution: "medusa-react@workspace:packages/medusa-react"
-  dependencies:
-    "@babel/core": ^7.16.0
-    "@medusajs/medusa-js": ^1.3.2
-    "@size-limit/preset-small-lib": ^6.0.4
-    "@storybook/addon-contexts": ^5.3.21
-    "@storybook/addon-essentials": ^6.3.12
-    "@storybook/addon-info": ^5.3.21
-    "@storybook/addon-links": ^6.3.12
-    "@storybook/addons": ^6.3.12
-    "@storybook/react": ^6.3.12
-    "@testing-library/react": ^12.1.2
-    "@testing-library/react-hooks": ^7.0.2
-    "@types/jest": ^27.0.3
-    "@types/lodash": ^4.14.177
-    "@types/react": ^17.0.33
-    "@types/react-dom": ^17.0.10
-    axios: ^0.24.0
-    babel-loader: ^8.2.3
-    dts-cli: ^1.5.1
-    husky: ^7.0.4
-    lodash: ^4.17.21
-    lodash-es: ^4.17.21
-    msw: ^0.35.0
-    msw-storybook-addon: ^1.5.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-is: ^17.0.2
-    react-json-view: ^1.21.3
-    react-query: ^3.31.0
-    size-limit: ^6.0.4
-    ts-jest: ^27.1.4
-    tslib: ^2.3.1
-  peerDependencies:
-    "@medusajs/medusa": ^1.6.0
-    react: ">=16"
-    react-query: ">= 3.29.0"
-  languageName: unknown
-  linkType: soft
-
-"medusa-source-shopify@workspace:packages/medusa-source-shopify":
-  version: 0.0.0-use.local
-  resolution: "medusa-source-shopify@workspace:packages/medusa-source-shopify"
-  dependencies:
-    "@babel/cli": ^7.15.4
-    "@babel/core": ^7.15.5
-    "@babel/node": ^7.15.4
-    "@babel/plugin-proposal-class-properties": ^7.14.5
-    "@babel/plugin-transform-classes": ^7.15.4
-    "@babel/plugin-transform-instanceof": ^7.14.5
-    "@babel/plugin-transform-runtime": ^7.15.0
-    "@babel/preset-env": ^7.15.6
-    "@babel/register": ^7.15.3
-    "@babel/runtime": ^7.15.4
-    "@shopify/shopify-api": ^1.4.1
-    axios: ^0.21.4
-    body-parser: ^1.19.0
-    client-sessions: ^0.8.0
-    cross-env: ^7.0.3
-    express: ^4.17.1
-    ioredis: ^4.27.9
-    jest: ^26.6.3
-    lodash: ^4.17.21
-    medusa-core-utils: ^1.1.31
-    medusa-interfaces: ^1.3.3
-    medusa-test-utils: ^1.1.37
-  peerDependencies:
-    medusa-interfaces: 1.3.3
-    typeorm: 0.x
-  languageName: unknown
-  linkType: soft
-
-"medusa-telemetry@0.0.13, medusa-telemetry@workspace:packages/medusa-telemetry":
-  version: 0.0.0-use.local
-  resolution: "medusa-telemetry@workspace:packages/medusa-telemetry"
-  dependencies:
-    "@babel/cli": ^7.14.3
-    "@babel/core": ^7.14.3
-    "@babel/preset-typescript": ^7.15.0
     axios: ^0.21.1
     axios-retry: ^3.1.9
-    babel-preset-medusa-package: ^1.1.19
     boxen: ^5.0.1
     ci-info: ^3.2.0
     configstore: 5.0.1
-    cross-env: ^5.2.1
     global: ^4.4.0
     is-docker: ^2.2.1
-    jest: ^25.5.2
-    nodemon: ^2.0.1
     remove-trailing-slash: ^0.1.1
     uuid: ^8.3.2
-  languageName: unknown
-  linkType: soft
-
-"medusa-test-utils@^1.1.37, medusa-test-utils@workspace:packages/medusa-test-utils":
-  version: 0.0.0-use.local
-  resolution: "medusa-test-utils@workspace:packages/medusa-test-utils"
-  dependencies:
-    "@babel/cli": ^7.7.5
-    "@babel/core": ^7.7.5
-    "@babel/plugin-proposal-class-properties": ^7.7.4
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@babel/plugin-transform-runtime": ^7.7.6
-    "@babel/preset-env": ^7.7.5
-    "@babel/runtime": ^7.9.6
-    cross-env: ^5.2.1
-    jest: ^25.5.2
-    medusa-core-utils: ^1.1.31
-    randomatic: ^3.1.1
-  languageName: unknown
-  linkType: soft
+  checksum: 971d9e4dcf00d783422244bd45eab9283e80e12c1906eaad7a8531e2c90f8f420fd79cb0c51086d6a1a12dd58f9e100de98e6aa794d201d16001dcb6b3fad61e
+  languageName: node
+  linkType: hard
 
 "meilisearch@npm:0.27.0":
   version: 0.27.0

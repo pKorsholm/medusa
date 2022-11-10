@@ -3,10 +3,10 @@ import {
   AdminOrderEditsRes,
   GetOrderEditsOrderEditParams,
   GetOrderEditsParams,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import { queryKeysFactory } from "../../utils"
 import { UseQueryOptionsWrapper } from "../../../types"
-import { Response } from "@medusajs/medusa-js"
+import { Response } from "@pkorsholm/medusa-js"
 import { useMedusa } from "../../../contexts"
 import { useQuery } from "react-query"
 

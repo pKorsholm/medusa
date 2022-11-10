@@ -1,9 +1,9 @@
-import { Response } from "@medusajs/medusa-js"
+import { Response } from "@pkorsholm/medusa-js"
 import {
   StoreGetProductsParams,
   StoreProductsListRes,
   StoreProductsRes,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import { useQuery } from "react-query"
 import { useMedusa } from "../../../contexts"
 import { UseQueryOptionsWrapper } from "../../../types"
