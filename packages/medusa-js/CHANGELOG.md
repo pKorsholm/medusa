@@ -1,5 +1,14 @@
 # Change Log
 
+## 0.0.0-staging-20221111024741
+
+### Patch Changes
+
+- [`ecbf92f8`](https://github.com/medusajs/medusa/commit/ecbf92f810aa15dad11285dd17e648b9f2313fc8) Thanks [@pKorsholm](https://github.com/pKorsholm)! - update packages
+
+- Updated dependencies [[`ecbf92f8`](https://github.com/medusajs/medusa/commit/ecbf92f810aa15dad11285dd17e648b9f2313fc8)]:
+  - @pkorsholm/medusa@0.0.0-staging-20221111024741
+
 ## 0.0.0-staging-20221111015503
 
 ### Patch Changes
