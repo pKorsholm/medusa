@@ -28,7 +28,7 @@ jobs:
       - name: Create Release Pull Request
         uses: changesets/action@v1
         with: 
-          version: yarn version:staging-snaphot
+          version: yarn version:staging-snapshot
           publish: yarn release:staging
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
