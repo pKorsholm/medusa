@@ -16,7 +16,7 @@ import {
   AdminPostOrdersOrderSwapsSwapFulfillmentsReq,
   AdminPostOrdersOrderSwapsSwapShipmentsReq,
 } from "@pkorsholm/medusa"
-import { FindParams } from "@medusajs/medusa/dist/types/common"
+import { FindParams } from "@pkorsholm/medusa/dist/types/common"
 import qs from "qs"
 import { ResponsePromise } from "../../typings"
 import BaseResource from "../base"
