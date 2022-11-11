@@ -1,5 +1,5 @@
 import CustomShippingOptionService from "../custom-shipping-option"
-import { MockManager, MockRepository, IdMap } from "medusa-test-utils"
+import { MockManager, MockRepository, IdMap } from "@pkorsholm/medusa-test-utils"
 
 describe("CustomShippingOptionService", () => {
   describe("list", () => {

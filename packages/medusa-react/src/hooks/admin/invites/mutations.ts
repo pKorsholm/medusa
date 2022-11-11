@@ -2,8 +2,8 @@ import { buildOptions } from "../../utils/buildOptions"
 import {
   AdminInviteDeleteRes,
   AdminPostInvitesInviteAcceptReq,
-} from "@medusajs/medusa"
-import { Response, AdminPostInvitesPayload } from "@medusajs/medusa-js"
+} from "@pkorsholm/medusa"
+import { Response, AdminPostInvitesPayload } from "@pkorsholm/medusa-js"
 import { useMutation, UseMutationOptions, useQueryClient } from "react-query"
 import { useMedusa } from "../../../contexts/medusa"
 import { adminInviteKeys } from "./queries"

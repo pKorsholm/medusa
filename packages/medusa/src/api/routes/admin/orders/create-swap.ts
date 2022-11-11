@@ -19,7 +19,7 @@ import {
 import { defaultAdminOrdersFields, defaultAdminOrdersRelations } from "."
 
 import { EntityManager } from "typeorm"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { Type } from "class-transformer"
 import { validator } from "../../../../utils/validator"
 

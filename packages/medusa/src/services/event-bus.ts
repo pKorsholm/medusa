@@ -186,10 +186,12 @@ export default class EventBusService {
         this.stagedJobRepository_
       )
 
+      const createData = data as unknown as Record<string, unknown>
       const stagedJobInstance = stagedJobRepository.create({
         event_name: eventName,
-        data,
+        data: createData,
       })
+
       return await stagedJobRepository.save(stagedJobInstance)
     } else {
       const opts: { removeOnComplete: boolean; delay?: number } = {

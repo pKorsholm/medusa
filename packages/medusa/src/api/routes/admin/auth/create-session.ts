@@ -2,7 +2,7 @@ import { IsEmail, IsNotEmpty, IsString } from "class-validator"
 
 import AuthService from "../../../../services/auth"
 import { EntityManager } from "typeorm"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import _ from "lodash"
 import jwt from "jsonwebtoken"
 import { validator } from "../../../../utils/validator"

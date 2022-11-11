@@ -1,4 +1,4 @@
-import { DiscountConditionOperator } from "@medusajs/medusa"
+import { DiscountConditionOperator } from "@pkorsholm/medusa"
 import { renderHook } from "@testing-library/react-hooks"
 import { fixtures } from "../../../../mocks/data"
 import {

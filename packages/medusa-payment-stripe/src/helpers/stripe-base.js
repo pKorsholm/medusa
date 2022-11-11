@@ -1,5 +1,5 @@
 import Stripe from "stripe"
-import { AbstractPaymentService, PaymentSessionData } from "@medusajs/medusa"
+import { AbstractPaymentService, PaymentSessionData } from "@pkorsholm/medusa"
 
 class StripeBase extends AbstractPaymentService {
   static identifier = null

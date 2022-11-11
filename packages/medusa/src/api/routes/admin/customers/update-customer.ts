@@ -10,7 +10,7 @@ import {
 import CustomerService from "../../../../services/customer"
 import { EntityManager } from "typeorm"
 import { FindParams } from "../../../../types/common"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { Type } from "class-transformer"
 import { defaultAdminCustomersRelations } from "."
 import { validator } from "../../../../utils/validator"

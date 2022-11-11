@@ -1,4 +1,4 @@
-import { MockManager, MockRepository } from "medusa-test-utils"
+import { MockManager, MockRepository } from "@pkorsholm/medusa-test-utils"
 import PaymentProviderService from "../payment-provider"
 import { testPayServiceMock } from "../__mocks__/test-pay"
 

@@ -1,4 +1,4 @@
-import { IdMap, MockManager, MockRepository } from "medusa-test-utils"
+import { IdMap, MockManager, MockRepository } from "@pkorsholm/medusa-test-utils"
 import CustomerService from "../customer"
 
 const eventBusService = {

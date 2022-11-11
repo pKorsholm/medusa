@@ -1,4 +1,4 @@
-import { IdMap, MockManager, MockRepository } from "medusa-test-utils"
+import { IdMap, MockManager, MockRepository } from "@pkorsholm/medusa-test-utils"
 import { FlagRouter } from "../../utils/flag-router"
 import LineItemService from "../line-item"
 import { PricingServiceMock } from "../__mocks__/pricing"

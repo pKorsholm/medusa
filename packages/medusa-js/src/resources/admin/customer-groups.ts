@@ -10,7 +10,7 @@ import {
   AdminGetCustomerGroupsGroupParams,
   AdminCustomersListRes,
   AdminGetCustomersParams,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import qs from "qs"
 
 import BaseResource from "../base"

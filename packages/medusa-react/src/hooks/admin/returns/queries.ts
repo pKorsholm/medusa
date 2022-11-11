@@ -1,5 +1,5 @@
-import { AdminReturnsListRes } from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
+import { AdminReturnsListRes } from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
 import { useQuery } from "react-query"
 import { useMedusa } from "../../../contexts"
 import { UseQueryOptionsWrapper } from "../../../types"

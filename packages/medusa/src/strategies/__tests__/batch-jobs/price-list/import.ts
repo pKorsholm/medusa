@@ -2,7 +2,7 @@ import { Readable, PassThrough } from "stream"
 import { EntityManager } from "typeorm"
 
 import { FileService } from "medusa-interfaces"
-import { MockManager } from "medusa-test-utils"
+import { MockManager } from "@pkorsholm/medusa-test-utils"
 
 import { User } from "../../../../models"
 import { BatchJobStatus } from "../../../../types/batch-job"

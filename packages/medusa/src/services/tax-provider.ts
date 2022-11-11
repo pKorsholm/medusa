@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { AwilixContainer } from "awilix"
 import { EntityManager, In } from "typeorm"
 import Redis from "ioredis"

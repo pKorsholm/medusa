@@ -3,7 +3,7 @@ import fs from "fs"
 import express from "express"
 import { createConnection } from "typeorm"
 import { sync as existsSync } from "fs-exists-cached"
-import { getConfigFile } from "medusa-core-utils"
+import { getConfigFile } from "@pkorsholm/medusa-core-utils"
 import { track } from "medusa-telemetry"
 
 import { handleConfigError } from "../loaders/config"

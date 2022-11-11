@@ -3,7 +3,7 @@ import path from "path"
 import fs from "fs"
 import { isString } from "lodash"
 import { sync as existsSync } from "fs-exists-cached"
-import { getConfigFile, createRequireFromPath } from "medusa-core-utils"
+import { getConfigFile, createRequireFromPath } from "@pkorsholm/medusa-core-utils"
 import { handleConfigError } from "../../loaders/config"
 import logger from "../../loaders/logger"
 

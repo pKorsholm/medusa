@@ -1,5 +1,5 @@
 import Scrypt from "scrypt-kdf"
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 import _ from "lodash"
 
 export const users = {

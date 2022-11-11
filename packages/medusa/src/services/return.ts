@@ -1,5 +1,5 @@
 import { isDefined } from "class-validator"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { DeepPartial, EntityManager } from "typeorm"
 import { TransactionBaseService } from "../interfaces"
 import {

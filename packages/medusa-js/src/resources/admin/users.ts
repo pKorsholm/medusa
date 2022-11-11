@@ -4,7 +4,7 @@ import {
   AdminResetPasswordTokenRequest,
   AdminUserRes,
   AdminUsersListRes,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import {
   ResponsePromise,
   AdminCreateUserPayload,

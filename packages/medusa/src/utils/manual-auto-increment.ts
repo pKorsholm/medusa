@@ -1,4 +1,4 @@
-import { getConfigFile } from "medusa-core-utils"
+import { getConfigFile } from "@pkorsholm/medusa-core-utils"
 import path from "path"
 import { getConnection } from "typeorm"
 

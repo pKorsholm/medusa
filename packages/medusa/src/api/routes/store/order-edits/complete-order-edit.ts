@@ -6,7 +6,7 @@ import {
   defaultStoreOrderEditRelations,
 } from "../../../../types/order-edit"
 import { OrderEditStatus } from "../../../../models"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 /**
  * @oas [post] /order-edits/{id}/complete

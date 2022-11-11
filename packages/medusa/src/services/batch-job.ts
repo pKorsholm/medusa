@@ -12,7 +12,7 @@ import {
 import { FindConfig } from "../types/common"
 import { TransactionBaseService } from "../interfaces"
 import { buildQuery } from "../utils"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { EventBusService, StrategyResolverService } from "./index"
 import { Request } from "express"
 

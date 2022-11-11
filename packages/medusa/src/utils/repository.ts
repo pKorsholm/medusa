@@ -1,5 +1,5 @@
 import { flatten, groupBy, map, merge } from "lodash"
-import { Repository, SelectQueryBuilder } from "typeorm"
+import { ObjectLiteral, Repository, SelectQueryBuilder } from "typeorm"
 import { FindWithoutRelationsOptions } from "../repositories/customer-group"
 
 /**
@@ -11,7 +11,7 @@ import { FindWithoutRelationsOptions } from "../repositories/customer-group"
  * @param withDeleted
  * @param select
  */
-export async function queryEntityWithIds<T>(
+export async function queryEntityWithIds<T extends ObjectLiteral>(
   repository: Repository<T>,
   entityIds: string[],
   groupedRelations: { [toplevel: string]: string[] },
@@ -73,7 +73,7 @@ export async function queryEntityWithIds<T>(
  * @param shouldCount
  * @param customJoinBuilders
  */
-export async function queryEntityWithoutRelations<T>(
+export async function queryEntityWithoutRelations<T extends ObjectLiteral>(
   repository: Repository<T>,
   optionsWithoutRelations: FindWithoutRelationsOptions,
   shouldCount = false,

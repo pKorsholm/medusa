@@ -1,5 +1,5 @@
 import NoteService from "../note"
-import { MockManager, MockRepository, IdMap } from "medusa-test-utils"
+import { MockManager, MockRepository, IdMap } from "@pkorsholm/medusa-test-utils"
 import { EventBusServiceMock } from "../__mocks__/event-bus"
 
 describe("NoteService", () => {

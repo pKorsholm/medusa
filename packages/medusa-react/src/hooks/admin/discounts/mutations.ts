@@ -9,8 +9,8 @@ import {
   AdminPostDiscountsDiscountDynamicCodesReq,
   AdminPostDiscountsDiscountReq,
   AdminPostDiscountsReq,
-} from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
+} from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
 import { useMutation, UseMutationOptions, useQueryClient } from "react-query"
 import { useMedusa } from "../../../contexts"
 import { buildOptions } from "../../utils/buildOptions"

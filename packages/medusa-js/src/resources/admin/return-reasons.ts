@@ -4,7 +4,7 @@ import {
   AdminReturnReasonsDeleteRes,
   AdminReturnReasonsListRes,
   AdminPostReturnReasonsReasonReq,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import { ResponsePromise } from "../../typings"
 import BaseResource from "../base"
 

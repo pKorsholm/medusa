@@ -1,4 +1,4 @@
-import { MockManager } from "medusa-test-utils"
+import { MockManager } from "@pkorsholm/medusa-test-utils"
 import CartCompletionStrategy from "../cart-completion"
 
 const IdempotencyKeyServiceMock = {

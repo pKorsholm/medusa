@@ -22,7 +22,7 @@
     "build-storybook": "build-storybook"
   },
   "peerDependencies": {
-    "@medusajs/medusa": "^1.6.0",
+    "@pkorsholm/medusa": "^1.6.0",
     "react": ">=16",
     "react-query": ">= 3.29.0"
   },
@@ -31,7 +31,7 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "medusa-react",
+  "name": "@pkorsholm/medusa-react",
   "author": "Zakaria S. El Asri",
   "module": "dist/medusa-react.esm.js",
   "size-limit": [
@@ -74,7 +74,7 @@
     "tslib": "^2.3.1"
   },
   "dependencies": {
-    "@medusajs/medusa-js": "^1.3.2",
+    "@pkorsholm/medusa-js": "^1.3.2",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",
     "react-query": "^3.31.0"

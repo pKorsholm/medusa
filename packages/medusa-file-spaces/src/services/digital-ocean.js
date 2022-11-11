@@ -1,4 +1,4 @@
-import { AbstractFileService } from "@medusajs/medusa"
+import { AbstractFileService } from "@pkorsholm/medusa"
 import aws from "aws-sdk"
 import fs from "fs"
 import { parse } from "path"

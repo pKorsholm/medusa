@@ -4,7 +4,7 @@ import {
   AdminReturnsCancelRes,
   AdminReturnsListRes,
   AdminReturnsRes,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import qs from "qs"
 import { ResponsePromise } from "../../typings"
 import BaseResource from "../base"

@@ -3,7 +3,7 @@ import {
   AdminTaxProvidersList,
   AdminPostStoreReq,
   AdminStoresRes,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import { ResponsePromise } from "../../typings"
 import BaseResource from "../base"
 

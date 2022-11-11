@@ -1,5 +1,5 @@
 import { useMutation, UseMutationOptions, useQueryClient } from "react-query"
-import { Response } from "@medusajs/medusa-js"
+import { Response } from "@pkorsholm/medusa-js"
 
 import {
   AdminOrderEditDeleteRes,
@@ -9,7 +9,7 @@ import {
   AdminPostOrderEditsOrderEditReq,
   AdminPostOrderEditsReq,
   AdminPostOrderEditsEditLineItemsReq,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 
 import { buildOptions } from "../../utils/buildOptions"
 import { useMedusa } from "../../../contexts"

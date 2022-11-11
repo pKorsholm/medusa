@@ -1,4 +1,4 @@
-import { IdMap, MockManager, MockRepository } from "medusa-test-utils"
+import { IdMap, MockManager, MockRepository } from "@pkorsholm/medusa-test-utils"
 import OrderService from "../order"
 import { InventoryServiceMock } from "../__mocks__/inventory"
 import { LineItemServiceMock } from "../__mocks__/line-item"
@@ -8,6 +8,12 @@ describe("OrderService", () => {
     withTransaction: function () {
       return this
     },
+    getCalculationContext: jest.fn().mockImplementation((order, lineItems) => {
+      return Promise.resolve({})
+    }),
+    getLineItemTotals: jest.fn().mockImplementation(() => {
+      return Promise.resolve({})
+    }),
     getLineItemRefund: () => {},
     getTotal: (o) => {
       return o.total || 0
@@ -1249,6 +1255,7 @@ describe("OrderService", () => {
         {
           order: {
             id: IdMap.getId("order"),
+            items: [],
             shipping_methods: [
               {
                 shipping_option: {
@@ -1278,6 +1285,7 @@ describe("OrderService", () => {
         {
           order: {
             id: IdMap.getId("order"),
+            items: [],
             shipping_methods: [
               {
                 shipping_option: {

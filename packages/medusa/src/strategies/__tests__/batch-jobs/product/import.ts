@@ -2,7 +2,7 @@ import { PassThrough, Readable } from "stream"
 import { EntityManager } from "typeorm"
 
 import { FileService } from "medusa-interfaces"
-import { IdMap, MockManager } from "medusa-test-utils"
+import { IdMap, MockManager } from "@pkorsholm/medusa-test-utils"
 
 import { User } from "../../../../models"
 import {

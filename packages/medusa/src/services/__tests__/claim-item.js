@@ -1,5 +1,5 @@
 import _ from "lodash"
-import { IdMap, MockRepository, MockManager } from "medusa-test-utils"
+import { IdMap, MockRepository, MockManager } from "@pkorsholm/medusa-test-utils"
 import ClaimItemService from "../claim-item"
 
 const withTransactionMock = jest.fn()

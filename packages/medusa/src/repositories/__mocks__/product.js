@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 
 export const ProductModelMock = {
   create: jest.fn().mockReturnValue(Promise.resolve()),

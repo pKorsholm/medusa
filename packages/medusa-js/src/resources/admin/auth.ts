@@ -1,4 +1,4 @@
-import { AdminAuthRes, AdminPostAuthReq } from "@medusajs/medusa"
+import { AdminAuthRes, AdminPostAuthReq } from "@pkorsholm/medusa"
 import { ResponsePromise } from "../../typings"
 import BaseResource from "../base"
 

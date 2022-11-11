@@ -1,6 +1,6 @@
 import { pick } from "lodash"
 import { FindConfig, QueryConfig, RequestQueryFields } from "../types/common"
-import { MedusaError } from "medusa-core-utils/dist"
+import { MedusaError } from "@pkorsholm/medusa-core-utils/dist"
 import { BaseEntity } from "../interfaces"
 import { isDefined } from "."
 

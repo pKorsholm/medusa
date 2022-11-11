@@ -1,9 +1,9 @@
 import { queryKeysFactory } from "../../utils/index"
-import { StoreOrdersRes, StoreGetOrdersParams } from "@medusajs/medusa"
+import { StoreOrdersRes, StoreGetOrdersParams } from "@pkorsholm/medusa"
 import { useQuery } from "react-query"
 import { useMedusa } from "../../../contexts"
 import { UseQueryOptionsWrapper } from "../../../types"
-import { Response } from "@medusajs/medusa-js"
+import { Response } from "@pkorsholm/medusa-js"
 
 const ORDERS_QUERY_KEY = `orders` as const
 

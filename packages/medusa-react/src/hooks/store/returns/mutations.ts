@@ -1,4 +1,4 @@
-import { StoreReturnsRes, StorePostReturnsReq } from "@medusajs/medusa"
+import { StoreReturnsRes, StorePostReturnsReq } from "@pkorsholm/medusa"
 import { useMutation, UseMutationOptions } from "react-query"
 import { useMedusa } from "../../../contexts"
 

@@ -2,9 +2,9 @@ import {
   StoreCustomersListOrdersRes,
   StoreCustomersRes,
   StoreGetCustomersCustomerOrdersParams,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import { useQuery } from "react-query"
-import { Response } from "@medusajs/medusa-js"
+import { Response } from "@pkorsholm/medusa-js"
 import { useMedusa } from "../../../contexts"
 import { UseQueryOptionsWrapper } from "../../../types"
 import { queryKeysFactory } from "../../utils/index"

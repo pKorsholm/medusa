@@ -1,5 +1,5 @@
 import { RequestHandler, Router } from "express"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 type middlewareHandlerType = (
   options: Record<string, unknown>
