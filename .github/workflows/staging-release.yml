@@ -29,6 +29,6 @@ jobs:
         uses: changesets/action@v1
         with: 
           version: yarn version:staging-snaphot
-          release: yarn release:staging
+          publish: yarn release:staging
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
