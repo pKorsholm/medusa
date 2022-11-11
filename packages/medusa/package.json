@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "0.0.0-staging-20221111015503",
   "description": "[Experimental] dont use this package - E-commerce for JAMstack",
   "main": "dist/index.js",
   "bin": "./cli.js",

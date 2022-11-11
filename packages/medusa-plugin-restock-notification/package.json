@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa-plugin-restock-notification",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "0.0.0-staging-20221111015503",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@pkorsholm/medusa": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa": "0.0.0-staging-20221111015503",
     "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848"
   },
   "dependencies": {

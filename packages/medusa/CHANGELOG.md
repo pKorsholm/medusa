@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.0-staging-20221111015503
+
+### Patch Changes
+
+- rm endpoint
+
 ## 0.0.0-staging-20221110094848
 
 ### Patch Changes

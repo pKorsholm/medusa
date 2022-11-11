@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.0.0-staging-20221111015503
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @pkorsholm/medusa@0.0.0-staging-20221111015503
+  - @pkorsholm/medusa-js@0.0.0-staging-20221111015503
+
 ## 0.0.0-staging-20221110094848
 
 ### Patch Changes
