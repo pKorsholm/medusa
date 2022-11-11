@@ -27,4 +27,4 @@ Creates a return request
 
 #### Defined in
 
-[medusa-js/src/resources/returns.ts:12](https://github.com/medusajs/medusa/blob/0b0d50b47/packages/medusa-js/src/resources/returns.ts#L12)
+[medusa-js/src/resources/returns.ts:12](https://github.com/pKorsholm/medusa/blob/829d87b84/packages/medusa-js/src/resources/returns.ts#L12)
