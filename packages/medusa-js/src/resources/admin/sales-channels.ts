@@ -7,7 +7,7 @@ import {
   AdminSalesChannelsListRes,
   AdminDeleteSalesChannelsChannelProductsBatchReq,
   AdminPostSalesChannelsChannelProductsBatchReq,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import { ResponsePromise } from "../../typings"
 import BaseResource from "../base"
 import qs from "qs"

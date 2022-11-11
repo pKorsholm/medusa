@@ -1,4 +1,4 @@
-import { StoreGiftCardsRes } from "@medusajs/medusa"
+import { StoreGiftCardsRes } from "@pkorsholm/medusa"
 import { ResponsePromise } from "../typings"
 import BaseResource from "./base"
 

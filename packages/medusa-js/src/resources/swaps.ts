@@ -1,5 +1,5 @@
 import { ResponsePromise } from "../typings"
-import { StoreSwapsRes, StorePostSwapsReq } from "@medusajs/medusa"
+import { StoreSwapsRes, StorePostSwapsReq } from "@pkorsholm/medusa"
 import BaseResource from "./base"
 
 class SwapsResource extends BaseResource {

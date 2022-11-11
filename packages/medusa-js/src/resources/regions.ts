@@ -1,5 +1,5 @@
 import { ResponsePromise } from "../typings"
-import { StoreRegionsListRes, StoreRegionsRes } from "@medusajs/medusa"
+import { StoreRegionsListRes, StoreRegionsRes } from "@pkorsholm/medusa"
 import BaseResource from "./base"
 
 class RegionsResource extends BaseResource {
