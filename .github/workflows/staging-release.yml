@@ -25,10 +25,16 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
-      - name: Create Release Pull Request
-        uses: changesets/action@v1
-        with: 
-          version: yarn version:staging-snapshot
-          publish: yarn release:staging
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: version staging packages
+        run: yarn version:staging-snapshot
+
+      - name: publish staging packages
+        run: yarn release:staging
+
+      # - name: Create Release Pull Request
+      #   uses: changesets/action@v1
+      #   with: 
+      #     version: yarn version:staging-snapshot
+      #     publish: yarn release:staging
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
