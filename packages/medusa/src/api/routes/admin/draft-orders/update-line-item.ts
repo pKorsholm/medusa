@@ -9,7 +9,7 @@ import {
 import { DraftOrder } from "../../../.."
 import { EntityManager } from "typeorm"
 import { LineItemUpdate } from "../../../../types/cart"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { validator } from "../../../../utils/validator"
 
 /**

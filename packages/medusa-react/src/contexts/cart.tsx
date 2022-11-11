@@ -75,8 +75,8 @@ export const CartProvider = ({
   const completeCheckout = useCompleteCart(cart?.id)
 
   const totalItems = cart?.items
-    .map(i => i.quantity)
-    .reduce((acc, curr) => acc + curr, 0)
+    .map((i: { quantity: number }) => i.quantity)
+    .reduce((acc: number, curr: number) => acc + curr, 0)
 
   return (
     <CartContext.Provider

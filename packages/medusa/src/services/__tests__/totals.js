@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 import TotalsService from "../totals"
 import { FlagRouter } from "../../utils/flag-router"
 

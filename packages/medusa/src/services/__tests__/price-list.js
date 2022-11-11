@@ -1,5 +1,9 @@
-import { MedusaError } from "medusa-core-utils"
-import { IdMap, MockManager, MockRepository } from "medusa-test-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
+import {
+  IdMap,
+  MockManager,
+  MockRepository,
+} from "@pkorsholm/medusa-test-utils"
 import { MoneyAmountRepository } from "../../repositories/money-amount"
 import { FlagRouter } from "../../utils/flag-router"
 import PriceListService from "../price-list"

@@ -1,5 +1,25 @@
 # Change Log
 
+## 0.0.0-staging-20221110094848
+
+### Patch Changes
+
+- Update package name
+
+- Updated dependencies []:
+  - @pkorsholm/medusa-core-utils@0.0.0-staging-20221110094848
+  - @pkorsholm/medusa-interfaces@0.0.0-staging-20221110094848
+
+## 0.0.0-staging-20221110091025
+
+### Patch Changes
+
+- Update package name
+
+- Updated dependencies []:
+  - @pkorsholm/medusa-core-utils@0.0.0-staging-20221110091025
+  - @pkorsholm/medusa-interfaces@0.0.0-staging-20221110091025
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
@@ -7,25 +27,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package medusa-payment-adyen
 
-
-
-
-
 ## [1.1.38](https://github.com/medusajs/medusa/compare/medusa-payment-adyen@1.1.37...medusa-payment-adyen@1.1.38) (2021-12-29)
 
 **Note:** Version bump only for package medusa-payment-adyen
 
-
-
-
-
 ## [1.1.37](https://github.com/medusajs/medusa/compare/medusa-payment-adyen@1.1.36...medusa-payment-adyen@1.1.37) (2021-12-17)
 
 **Note:** Version bump only for package medusa-payment-adyen
-
-
-
-
 
 ## [1.1.36](https://github.com/medusajs/medusa/compare/medusa-payment-adyen@1.1.35...medusa-payment-adyen@1.1.36) (2021-12-08)
 

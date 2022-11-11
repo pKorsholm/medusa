@@ -1,5 +1,5 @@
 import ProductExportStrategy from "../../../batch-jobs/product/export"
-import { IdMap, MockManager } from "medusa-test-utils"
+import { IdMap, MockManager } from "@pkorsholm/medusa-test-utils"
 import { User } from "../../../../models"
 import { BatchJobStatus } from "../../../../types/batch-job"
 import { productsToExport } from "../../../__fixtures__/product-export-data"

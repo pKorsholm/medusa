@@ -1,6 +1,6 @@
 import ProductVariantService from "../services/product-variant"
 import ProductService from "../services/product"
-import { indexTypes } from "medusa-core-utils"
+import { indexTypes } from "@pkorsholm/medusa-core-utils"
 
 const searchFields = [
   "id",

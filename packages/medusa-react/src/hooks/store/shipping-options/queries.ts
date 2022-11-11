@@ -5,8 +5,8 @@ import { useMedusa } from "../../../contexts"
 import {
   StoreShippingOptionsListRes,
   StoreGetShippingOptionsParams,
-} from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
+} from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
 
 const SHIPPING_OPTION_QUERY_KEY = `shipping_options` as const
 

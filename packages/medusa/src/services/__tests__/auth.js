@@ -1,5 +1,5 @@
 import AuthService from "../auth"
-import { MockManager } from "medusa-test-utils"
+import { MockManager } from "@pkorsholm/medusa-test-utils"
 import { users, UserServiceMock } from "../__mocks__/user"
 import { CustomerServiceMock } from "../__mocks__/customer"
 

@@ -1,5 +1,5 @@
 import { isEmpty, isEqual } from "lodash"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { DeepPartial, EntityManager, In } from "typeorm"
 import { IPriceSelectionStrategy, TransactionBaseService } from "../interfaces"
 import SalesChannelFeatureFlag from "../loaders/feature-flags/sales-channels"
@@ -920,13 +920,6 @@ class CartService extends TransactionBaseService {
         }
 
         const cart = await this.retrieve(cartId, {
-          select: [
-            "subtotal",
-            "tax_total",
-            "shipping_total",
-            "discount_total",
-            "total",
-          ],
           relations,
         })
 
@@ -1755,7 +1748,7 @@ class CartService extends TransactionBaseService {
     return await this.atomicPhase_(
       async (transactionManager: EntityManager) => {
         const cart = await this.retrieve(cartId, {
-          select: ["subtotal"],
+          select: ["subtotal", "total"],
           relations: [
             "shipping_methods",
             "discounts",

@@ -1,5 +1,17 @@
 # Change Log
 
+## 0.0.0-staging-20221110094848
+
+### Patch Changes
+
+- Update package name
+
+## 0.0.0-staging-20221110091025
+
+### Patch Changes
+
+- Update package name
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 

@@ -7,7 +7,7 @@ import {
 
 import { DraftOrder } from "../../../.."
 import { EntityManager } from "typeorm"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 /**
  * @oas [delete] /draft-orders/{id}/line-items/{line_id}

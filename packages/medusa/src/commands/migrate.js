@@ -1,5 +1,5 @@
 import { createConnection } from "typeorm"
-import { getConfigFile } from "medusa-core-utils"
+import { getConfigFile } from "@pkorsholm/medusa-core-utils"
 import featureFlagLoader from "../loaders/feature-flags"
 import { handleConfigError } from "../loaders/config"
 import Logger from "../loaders/logger"

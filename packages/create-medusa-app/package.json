@@ -1,5 +1,5 @@
 {
-  "name": "create-medusa-app",
+  "name": "@pkorsholm/create-medusa-app",
   "version": "0.0.7",
   "main": "dist/index.js",
   "bin": "cli.js",

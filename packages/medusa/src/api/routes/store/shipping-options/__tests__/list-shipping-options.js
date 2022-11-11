@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 import { request } from "../../../../../helpers/test-request"
 import { carts, CartServiceMock } from "../../../../../services/__mocks__/cart"
 import { ShippingProfileServiceMock } from "../../../../../services/__mocks__/shipping-profile"

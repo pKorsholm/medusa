@@ -1,4 +1,4 @@
-import { MockManager, MockRepository } from "medusa-test-utils"
+import { MockManager, MockRepository } from "@pkorsholm/medusa-test-utils"
 import { In } from "typeorm"
 import LineItemAdjustmentService from "../line-item-adjustment"
 import { DiscountServiceMock } from "../__mocks__/discount"

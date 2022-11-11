@@ -65,7 +65,7 @@ export const getVariantPrice = (
   region: RegionInfo
 ) => {
   let price = variant?.prices?.find(
-    p => p.currency_code.toLowerCase() === region?.currency_code?.toLowerCase()
+    (p: {currency_code: string}) => p.currency_code.toLowerCase() === region?.currency_code?.toLowerCase()
   )
 
   return price?.amount || 0

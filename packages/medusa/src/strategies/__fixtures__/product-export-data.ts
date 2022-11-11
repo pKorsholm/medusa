@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 
 const productIds = [
   "product-export-strategy-product-1",

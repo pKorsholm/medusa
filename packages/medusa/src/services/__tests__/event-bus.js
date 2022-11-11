@@ -1,5 +1,5 @@
 import Bull from "bull"
-import { MockRepository, MockManager } from "medusa-test-utils"
+import { MockRepository, MockManager } from "@pkorsholm/medusa-test-utils"
 import EventBusService from "../event-bus"
 import config from "../../loaders/config"
 

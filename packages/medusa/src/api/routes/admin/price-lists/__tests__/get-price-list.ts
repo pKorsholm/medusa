@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 import { defaultAdminPriceListFields, defaultAdminPriceListRelations } from ".."
 import { request } from "../../../../../helpers/test-request"
 import { PriceListServiceMock } from "../../../../../services/__mocks__/price-list"

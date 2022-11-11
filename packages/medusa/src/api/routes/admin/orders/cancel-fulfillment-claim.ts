@@ -6,7 +6,7 @@ import {
 import { defaultAdminOrdersFields, defaultAdminOrdersRelations } from "."
 
 import { EntityManager } from "typeorm"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 /**
  * @oas [post] /orders/{id}/claims/{claim_id}/fulfillments/{fulfillment_id}/cancel

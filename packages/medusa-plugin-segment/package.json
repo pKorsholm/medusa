@@ -1,7 +1,7 @@
 {
-  "name": "medusa-plugin-segment",
+  "name": "@pkorsholm/medusa-plugin-segment",
   "version": "1.3.0",
-  "description": "Segment Analytics",
+  "description": "[Experimental] dont use this package - Segment Analytics",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -32,19 +32,15 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "medusa-interfaces": "1.x"
+    "@pkorsholm/medusa-interfaces": "1.x"
   },
   "dependencies": {
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-test-utils": "^1.1.37",
     "analytics-node": "^3.4.0-beta.1",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "medusa-core-utils": "^1.1.31",
-    "medusa-test-utils": "^1.1.37"
+    "express": "^4.17.1"
   },
-  "gitHead": "cd1f5afa5aa8c0b15ea957008ee19f1d695cbd2e",
-  "keywords": [
-    "medusa-plugin",
-    "medusa-plugin-analytics"
-  ]
+  "gitHead": "cd1f5afa5aa8c0b15ea957008ee19f1d695cbd2e"
 }

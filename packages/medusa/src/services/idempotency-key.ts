@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { v4 } from "uuid"
 import { TransactionBaseService } from "../interfaces"
 import { DeepPartial, EntityManager } from "typeorm"

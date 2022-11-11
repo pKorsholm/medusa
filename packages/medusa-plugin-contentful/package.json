@@ -1,7 +1,7 @@
 {
-  "name": "medusa-plugin-contentful",
+  "name": "@pkorsholm/medusa-plugin-contentful",
   "version": "1.2.3",
-  "description": "Contentful plugin for Medusa Commerce",
+  "description": "[Experimental] dont use this package - Contentful plugin for Medusa Commerce",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -31,20 +31,16 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "medusa-interfaces": "1.x"
+    "@pkorsholm/medusa-interfaces": "1.x"
   },
   "dependencies": {
     "@babel/plugin-transform-classes": "^7.9.5",
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-test-utils": "^1.1.37",
     "body-parser": "^1.19.0",
     "contentful-management": "^5.27.1",
     "express": "^4.17.1",
-    "medusa-core-utils": "^1.1.31",
-    "medusa-test-utils": "^1.1.37",
     "redis": "^3.0.2"
   },
-  "gitHead": "3bbd1e8507e00bc471de6ae3c30207999a4a4011",
-  "keywords": [
-    "medusa-plugin",
-    "medusa-plugin-cms"
-  ]
+  "gitHead": "3bbd1e8507e00bc471de6ae3c30207999a4a4011"
 }

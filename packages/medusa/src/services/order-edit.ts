@@ -1,5 +1,5 @@
 import { DeepPartial, EntityManager, ILike, IsNull } from "typeorm"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 import { FindConfig, Selector } from "../types/common"
 import { buildQuery, isDefined, isString } from "../utils"

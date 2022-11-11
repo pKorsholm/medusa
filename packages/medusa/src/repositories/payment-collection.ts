@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { PaymentCollection } from "./../models/payment-collection"
 import { EntityRepository, Repository } from "typeorm"
 import { FindConfig } from "../types/common"

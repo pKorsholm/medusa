@@ -1,9 +1,11 @@
-name: Staging Release
+name: Staging Release and publish
 
+# Only trigger, when the build workflow succeeded
 on:
-  push:
-    branches:
-      - develop
+  pull_request:
+    paths-ignore:
+      - "docs/**"
+      - "www/**"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -26,6 +28,7 @@ jobs:
       - name: Create Release Pull Request
         uses: changesets/action@v1
         with: 
-          version: yarn version:staging
+          version: yarn version:staging-snapshot
+          publish: yarn release:staging
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

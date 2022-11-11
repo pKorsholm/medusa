@@ -7,7 +7,7 @@ import {
   IsString,
   ValidateNested,
 } from "class-validator"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { EntityManager } from "typeorm"
 import {
   defaultAdminDraftOrdersCartFields,

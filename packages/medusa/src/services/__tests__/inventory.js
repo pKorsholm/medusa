@@ -1,4 +1,4 @@
-import { MockManager } from "medusa-test-utils"
+import { MockManager } from "@pkorsholm/medusa-test-utils"
 import InventoryService from "../inventory"
 import { ProductVariantServiceMock } from "../__mocks__/product-variant"
 

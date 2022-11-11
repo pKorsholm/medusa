@@ -1,6 +1,6 @@
 import { adminStoreKeys } from "./queries"
-import { AdminPostStoreReq, AdminStoresRes } from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
+import { AdminPostStoreReq, AdminStoresRes } from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
 import { useMutation, UseMutationOptions, useQueryClient } from "react-query"
 import { useMedusa } from "../../../contexts/medusa"
 import { buildOptions } from "../../utils/buildOptions"

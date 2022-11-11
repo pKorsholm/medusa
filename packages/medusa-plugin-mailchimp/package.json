@@ -1,7 +1,7 @@
 {
-  "name": "medusa-plugin-mailchimp",
+  "name": "@pkorsholm/medusa-plugin-mailchimp",
   "version": "1.1.42",
-  "description": "Mailchimp newsletter subscriptions",
+  "description": "[Experimental] dont use this package - Mailchimp newsletter subscriptions",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -31,20 +31,16 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "medusa-interfaces": "1.x"
+    "@pkorsholm/medusa-interfaces": "1.x"
   },
   "dependencies": {
     "@babel/plugin-transform-classes": "^7.9.5",
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-test-utils": "^1.1.37",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mailchimp-api-v3": "^1.14.0",
-    "medusa-core-utils": "^1.1.31",
-    "medusa-test-utils": "^1.1.37"
+    "mailchimp-api-v3": "^1.14.0"
   },
-  "gitHead": "cd1f5afa5aa8c0b15ea957008ee19f1d695cbd2e",
-  "keywords": [
-    "medusa-plugin",
-    "medusa-plugin-notification"
-  ]
+  "gitHead": "cd1f5afa5aa8c0b15ea957008ee19f1d695cbd2e"
 }

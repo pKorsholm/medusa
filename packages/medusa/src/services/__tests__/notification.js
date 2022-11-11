@@ -1,5 +1,5 @@
 import NotificationService from "../notification"
-import { MockManager, MockRepository } from "medusa-test-utils"
+import { MockManager, MockRepository } from "@pkorsholm/medusa-test-utils"
 
 describe("NotificationService", () => {
   const notificationRepository = MockRepository({ create: c => c })

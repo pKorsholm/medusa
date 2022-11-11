@@ -1,5 +1,5 @@
 import _ from "lodash"
-import { IdMap, MockRepository, MockManager } from "medusa-test-utils"
+import { IdMap, MockRepository, MockManager } from "@pkorsholm/medusa-test-utils"
 import ShippingOptionService from "../shipping-option"
 import { FlagRouter } from "../../utils/flag-router";
 import TaxInclusivePricingFeatureFlag from "../../loaders/feature-flags/tax-inclusive-pricing";

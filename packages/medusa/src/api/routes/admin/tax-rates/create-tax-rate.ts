@@ -3,7 +3,7 @@ import { getRetrieveConfig, pickByConfig } from "./utils/get-query-config"
 
 import { EntityManager } from "typeorm"
 import { IsType } from "../../../../utils/validators/is-type"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { TaxRate } from "../../../.."
 import { TaxRateService } from "../../../../services"
 import { omit } from "lodash"

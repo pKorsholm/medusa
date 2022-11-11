@@ -2,9 +2,9 @@ import {
   AdminOrdersListRes,
   AdminOrdersRes,
   AdminGetOrdersParams,
-} from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
-import { FindParams } from "@medusajs/medusa/dist/types/common"
+} from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
+import { FindParams } from "@pkorsholm/medusa/dist/types/common"
 import { useQuery } from "react-query"
 import { useMedusa } from "../../../contexts"
 import { UseQueryOptionsWrapper } from "../../../types"

@@ -1,5 +1,5 @@
 import { generateCartState } from "../../src/contexts/session-cart"
-import { ProductVariant } from "@medusajs/medusa"
+import { ProductVariant } from "@pkorsholm/medusa"
 import { useSessionCart } from "../../src"
 import { act, renderHook } from "@testing-library/react-hooks"
 import { fixtures } from "../../mocks/data"

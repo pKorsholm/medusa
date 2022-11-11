@@ -1,5 +1,23 @@
 # Change Log
 
+## 0.0.0-staging-20221110094848
+
+### Patch Changes
+
+- Update package name
+
+- Updated dependencies []:
+  - @pkorsholm/medusa-interfaces@0.0.0-staging-20221110094848
+
+## 0.0.0-staging-20221110091025
+
+### Patch Changes
+
+- Update package name
+
+- Updated dependencies []:
+  - @pkorsholm/medusa-interfaces@0.0.0-staging-20221110091025
+
 ## 1.0.17
 
 ### Patch Changes

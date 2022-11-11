@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 export const InventoryServiceMock = {
   withTransaction: function() {

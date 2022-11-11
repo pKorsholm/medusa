@@ -5,8 +5,8 @@ import {
   AdminPostCollectionsCollectionReq,
   AdminPostCollectionsReq,
   AdminPostProductsToCollectionReq,
-} from "@medusajs/medusa"
-import { Response } from "@medusajs/medusa-js"
+} from "@pkorsholm/medusa"
+import { Response } from "@pkorsholm/medusa-js"
 import { useMutation, UseMutationOptions, useQueryClient } from "react-query"
 import { adminCollectionKeys } from "."
 import { useMedusa } from "../../../contexts/medusa"

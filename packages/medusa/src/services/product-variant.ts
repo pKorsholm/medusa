@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { Brackets, EntityManager, ILike, SelectQueryBuilder } from "typeorm"
 import {
   IPriceSelectionStrategy,

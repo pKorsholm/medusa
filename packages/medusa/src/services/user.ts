@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import Scrypt from "scrypt-kdf"
 import { EntityManager } from "typeorm"
 import { TransactionBaseService } from "../interfaces"

@@ -4,7 +4,7 @@ import fs from "fs"
 import { sync as existsSync } from "fs-exists-cached"
 import glob from "glob"
 import _ from "lodash"
-import { createRequireFromPath } from "medusa-core-utils"
+import { createRequireFromPath } from "@pkorsholm/medusa-core-utils"
 import {
   BaseService as LegacyBaseService,
   FileService,

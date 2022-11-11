@@ -1,6 +1,6 @@
 /* eslint-disable valid-jsdoc */
 import { EntityManager } from "typeorm"
-import { computerizeAmount, MedusaError } from "medusa-core-utils"
+import { computerizeAmount, MedusaError } from "@pkorsholm/medusa-core-utils"
 
 import { AbstractBatchJobStrategy, IFileService } from "../../../interfaces"
 import CsvParser from "../../../services/csv-parser"

@@ -11,7 +11,7 @@ import { defaultStoreSwapFields, defaultStoreSwapRelations } from "."
 
 import { EntityManager } from "typeorm"
 import IdempotencyKeyService from "../../../../services/idempotency-key"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import OrderService from "../../../../services/order"
 import ReturnService from "../../../../services/return"
 import SwapService from "../../../../services/swap"

@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 
 export const TotalsServiceMock = {
   withTransaction: function () {
@@ -35,6 +35,9 @@ export const TotalsServiceMock = {
     return Promise.resolve()
   }),
   getCalculationContext: jest.fn().mockImplementation((order, lineItems) => {
+    return Promise.resolve({})
+  }),
+  getLineItemTotals: jest.fn().mockImplementation(() => {
     return Promise.resolve({})
   }),
 }

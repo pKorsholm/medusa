@@ -2,7 +2,7 @@ import {
   ProductVariant as ProductVariantEntity,
   Region,
   StoreCartsRes,
-} from "@medusajs/medusa"
+} from "@pkorsholm/medusa"
 import { QueryKey, UseQueryOptions } from "react-query"
 
 export type UseQueryOptionsWrapper<

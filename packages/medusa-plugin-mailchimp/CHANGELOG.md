@@ -1,5 +1,27 @@
 # Change Log
 
+## 0.0.0-staging-20221110094848
+
+### Patch Changes
+
+- Update package name
+
+- Updated dependencies []:
+  - @pkorsholm/medusa-core-utils@0.0.0-staging-20221110094848
+  - @pkorsholm/medusa-interfaces@0.0.0-staging-20221110094848
+  - @pkorsholm/medusa-test-utils@0.0.0-staging-20221110094848
+
+## 0.0.0-staging-20221110091025
+
+### Patch Changes
+
+- Update package name
+
+- Updated dependencies []:
+  - @pkorsholm/medusa-core-utils@0.0.0-staging-20221110091025
+  - @pkorsholm/medusa-interfaces@0.0.0-staging-20221110091025
+  - @pkorsholm/medusa-test-utils@0.0.0-staging-20221110091025
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
@@ -7,25 +29,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package medusa-plugin-mailchimp
 
-
-
-
-
 ## [1.1.41](https://github.com/medusajs/medusa/compare/medusa-plugin-mailchimp@1.1.39...medusa-plugin-mailchimp@1.1.41) (2022-06-19)
 
 **Note:** Version bump only for package medusa-plugin-mailchimp
 
-
-
-
-
 ## [1.1.40](https://github.com/medusajs/medusa/compare/medusa-plugin-mailchimp@1.1.39...medusa-plugin-mailchimp@1.1.40) (2022-05-31)
 
 **Note:** Version bump only for package medusa-plugin-mailchimp
-
-
-
-
 
 ## [1.1.39](https://github.com/medusajs/medusa/compare/medusa-plugin-mailchimp@1.1.38...medusa-plugin-mailchimp@1.1.39) (2022-02-06)
 
