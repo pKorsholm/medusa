@@ -1,6 +1,6 @@
 import fs from "fs"
 import aws from "aws-sdk"
-import { AbstractFileService } from "@medusajs/medusa"
+import { AbstractFileService } from "@pkorsholm/medusa"
 import stream from "stream"
 
 class S3Service extends AbstractFileService {

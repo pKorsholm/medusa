@@ -11,7 +11,7 @@ import { renderHook } from "@testing-library/react-hooks"
 import { fixtures } from "../../../../mocks/data"
 import { createWrapper } from "../../../utils"
 
-import { PriceListType } from "@medusajs/medusa/dist/types/price-list"
+import { PriceListType } from "@pkorsholm/medusa/dist/types/price-list"
 
 describe("useAdminCreatePriceList hook", () => {
   test("creates a price list and returns it", async () => {
