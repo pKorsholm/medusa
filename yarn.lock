@@ -4572,44 +4572,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-cli@npm:0.0.0-staging-20221110094848":
-  version: 0.0.0-staging-20221110094848
-  resolution: "@pkorsholm/medusa-cli@npm:0.0.0-staging-20221110094848"
-  dependencies:
-    "@babel/polyfill": ^7.8.7
-    "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
-    axios: ^0.21.1
-    chalk: ^4.0.0
-    configstore: 5.0.1
-    core-js: ^3.6.5
-    dotenv: ^8.2.0
-    execa: ^5.1.1
-    fs-exists-cached: ^1.0.0
-    fs-extra: ^10.0.0
-    hosted-git-info: ^4.0.2
-    inquirer: ^8.0.0
-    is-valid-path: ^0.1.1
-    meant: ^1.0.1
-    medusa-telemetry: 0.0.13
-    netrc-parser: ^3.1.6
-    open: ^8.0.6
-    ora: ^5.4.1
-    pg-god: ^1.0.11
-    prompts: ^2.4.1
-    regenerator-runtime: ^0.13.5
-    resolve-cwd: ^3.0.0
-    stack-trace: ^0.0.10
-    ulid: ^2.3.0
-    url: ^0.11.0
-    winston: ^3.3.3
-    yargs: ^15.3.1
-  bin:
-    medusa: cli.js
-  checksum: 4e13c0e37e7e309f93f13a50133b5050c17724bfa9bb4c2b2e65cdd3412e3f0bbaaa85671b69f6cd1625386855dd218d045fd1b0367849f0c500209a6ad8a643
-  languageName: node
-  linkType: hard
-
 "@pkorsholm/medusa-core-utils@^1.1.31, @pkorsholm/medusa-core-utils@^1.1.32, @pkorsholm/medusa-core-utils@^1.1.34, @pkorsholm/medusa-core-utils@workspace:packages/medusa-core-utils":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa-core-utils@workspace:packages/medusa-core-utils"
@@ -4631,16 +4593,6 @@ __metadata:
     typescript: ^4.4.4
   languageName: unknown
   linkType: soft
-
-"@pkorsholm/medusa-core-utils@npm:0.0.0-staging-20221110094848":
-  version: 0.0.0-staging-20221110094848
-  resolution: "@pkorsholm/medusa-core-utils@npm:0.0.0-staging-20221110094848"
-  dependencies:
-    joi: ^17.3.0
-    joi-objectid: ^3.0.1
-  checksum: 9890eec9a939a53a2f87c3de99f765c0085f78c05c2cb099be5ad36eb1ffa3fb5878c0da11709bc23ac426f4a584724c09128ce5939a0d0d80609324ba9a03cb
-  languageName: node
-  linkType: hard
 
 "@pkorsholm/medusa-dev-cli@workspace:packages/medusa-dev-cli":
   version: 0.0.0-use.local
@@ -4823,11 +4775,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-js@0.0.0-staging-20221111015503, @pkorsholm/medusa-js@workspace:packages/medusa-js":
+"@pkorsholm/medusa-js@^1.3.2, @pkorsholm/medusa-js@workspace:packages/medusa-js":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa-js@workspace:packages/medusa-js"
   dependencies:
-    "@pkorsholm/medusa": 0.0.0-staging-20221111015503
+    "@pkorsholm/medusa": ^1.6.0
     "@types/jest": ^26.0.19
     axios: ^0.24.0
     cross-env: ^7.0.3
@@ -5352,7 +5304,7 @@ __metadata:
   resolution: "@pkorsholm/medusa-react@workspace:packages/medusa-react"
   dependencies:
     "@babel/core": ^7.16.0
-    "@pkorsholm/medusa-js": 0.0.0-staging-20221111015503
+    "@pkorsholm/medusa-js": ^1.3.2
     "@size-limit/preset-small-lib": ^6.0.4
     "@storybook/addon-contexts": ^5.3.21
     "@storybook/addon-essentials": ^6.3.12
@@ -5383,7 +5335,7 @@ __metadata:
     ts-jest: ^27.1.4
     tslib: ^2.3.1
   peerDependencies:
-    "@pkorsholm/medusa": 0.0.0-staging-20221111015503
+    "@pkorsholm/medusa": ^1.6.0
     react: ">=16"
     react-query: ">= 3.29.0"
   languageName: unknown
@@ -5462,18 +5414,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-test-utils@npm:0.0.0-staging-20221110094848":
-  version: 0.0.0-staging-20221110094848
-  resolution: "@pkorsholm/medusa-test-utils@npm:0.0.0-staging-20221110094848"
-  dependencies:
-    "@babel/plugin-transform-classes": ^7.9.5
-    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
-    randomatic: ^3.1.1
-  checksum: 358585f30677122a7f9c1d25bfc34c718b3cbf80dae249037678dd2f8ffe0c1c94b76fbb5491082721a81f8fbabaa3fdb25f3f36dd83b3c1183134806c8a64fa
-  languageName: node
-  linkType: hard
-
-"@pkorsholm/medusa@^1.3.3, @pkorsholm/medusa@workspace:packages/medusa":
+"@pkorsholm/medusa@^1.3.3, @pkorsholm/medusa@^1.6.0, @pkorsholm/medusa@workspace:packages/medusa":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa@workspace:packages/medusa"
   dependencies:
@@ -5542,62 +5483,6 @@ __metadata:
     medusa: ./cli.js
   languageName: unknown
   linkType: soft
-
-"@pkorsholm/medusa@npm:0.0.0-staging-20221111015503":
-  version: 0.0.0-staging-20221111015503
-  resolution: "@pkorsholm/medusa@npm:0.0.0-staging-20221111015503"
-  dependencies:
-    "@pkorsholm/medusa-cli": 0.0.0-staging-20221110094848
-    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
-    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
-    "@types/ioredis": ^4.28.10
-    "@types/lodash": ^4.14.168
-    awilix: ^4.2.3
-    body-parser: ^1.19.0
-    bull: ^3.12.1
-    chokidar: ^3.4.2
-    class-transformer: ^0.5.1
-    class-validator: ^0.13.1
-    connect-redis: ^5.0.0
-    cookie-parser: ^1.4.4
-    core-js: ^3.6.5
-    cors: ^2.8.5
-    cross-spawn: ^7.0.3
-    express: ^4.17.1
-    express-session: ^1.17.1
-    fs-exists-cached: ^1.0.0
-    glob: ^7.1.6
-    ioredis: ^4.17.3
-    ioredis-mock: ^5.6.0
-    iso8601-duration: ^1.3.0
-    jsonwebtoken: ^8.5.1
-    morgan: ^1.9.1
-    multer: ^1.4.2
-    node-schedule: ^2.1.0
-    papaparse: ^5.3.2
-    passport: ^0.4.0
-    passport-http-bearer: ^1.0.1
-    passport-jwt: ^4.0.0
-    passport-local: ^1.0.0
-    pg: ^8.5.1
-    randomatic: ^3.1.1
-    redis: ^3.0.2
-    reflect-metadata: ^0.1.13
-    request-ip: ^2.1.3
-    resolve-cwd: ^3.0.0
-    scrypt-kdf: ^2.0.1
-    sqlite3: ^5.0.2
-    ulid: ^2.3.0
-    uuid: ^8.3.1
-    winston: ^3.2.1
-  peerDependencies:
-    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
-    typeorm: 0.2.x
-  bin:
-    medusa: cli.js
-  checksum: 513f9db5b41b54ef229183a4cc585a839a68e6930b9bff9293225dde33975eef2330396d88598a2eb79b5ca2bf42c3185b664fb6b4fdac8eeee56bcc2a97396a
-  languageName: node
-  linkType: hard
 
 "@pmmmwh/react-refresh-webpack-plugin@npm:^0.5.3, @pmmmwh/react-refresh-webpack-plugin@npm:^0.5.7":
   version: 0.5.9
