@@ -39,15 +39,6 @@ jobs:
       - name: Install Dependencies build
         run: yarn build
 
-      - name: Install Dependencies
-        run: which npm
-
-      - name: Install Dependencies
-        run: which yarn
-
-      - name: Install Dependencies
-        run: which node
-
       - name: version staging packages
         run: yarn version:staging-snapshot
         env:
@@ -55,14 +46,3 @@ jobs:
 
       - name: publish staging packages
         run: yarn release:staging
-        # env:
-        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # - name: Create Release Pull Request
-      #   uses: changesets/action@v1
-      #   with: 
-      #     version: yarn version:staging-snapshot
-      #     publish: yarn release:staging
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
