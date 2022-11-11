@@ -229,8 +229,8 @@ class UserService extends TransactionBaseService {
         user.metadata = setMetadata(user, metadata)
       }
 
-      for (const [key, value] of Object.entries(rest)) {
-        user[key as keyof User] = value
+      for (const key of Object.keys(rest)) {
+        user[key as keyof User] = rest[key]
       }
 
       const updatedUser = await userRepo.save(user)

@@ -57,7 +57,7 @@ class CsvParser<
       this.$$schema.columns.filter((col) => col.required)
     )
 
-    const tupleKeys = Object.keys(line)
+    const tupleKeys = Object.keys(line as object)
 
     /**
      * map which keeps track of the columns processed

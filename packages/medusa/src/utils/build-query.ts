@@ -12,7 +12,10 @@ import { FindOperator, In, IsNull, Raw } from "typeorm"
  * @param config The config
  * @return The QueryBuilderConfig
  */
-export function buildQuery<TWhereKeys, TEntity = unknown>(
+export function buildQuery<
+  TWhereKeys extends Selector<TEntity>,
+  TEntity = unknown
+>(
   selector: TWhereKeys,
   config: FindConfig<TEntity> = {}
 ): ExtendedFindConfig<TEntity, TWhereKeys> {
