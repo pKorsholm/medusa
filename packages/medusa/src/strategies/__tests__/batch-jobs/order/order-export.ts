@@ -1,5 +1,5 @@
 import OrderExportStrategy from "../../../batch-jobs/order/export"
-import { IdMap, MockManager } from "medusa-test-utils"
+import { IdMap, MockManager } from "@pkorsholm/medusa-test-utils"
 import { User } from "../../../../models"
 import { BatchJobStatus } from "../../../../types/batch-job"
 import { ordersToExport } from "../../../__fixtures__/order-export-data"

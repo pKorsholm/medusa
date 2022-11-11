@@ -1,5 +1,5 @@
-import { IdMap } from "medusa-test-utils"
-import { MedusaError } from "medusa-core-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 export const LineItemServiceMock = {
   withTransaction: function () {

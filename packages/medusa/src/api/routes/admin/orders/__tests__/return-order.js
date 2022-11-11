@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 import { request } from "../../../../../helpers/test-request"
 import { ReturnService } from "../../../../../services/__mocks__/return"
 import { EventBusServiceMock } from "../../../../../services/__mocks__/event-bus"

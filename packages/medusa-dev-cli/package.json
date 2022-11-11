@@ -1,7 +1,7 @@
 {
   "name": "@pkorsholm/medusa-dev-cli",
   "description": "[Experimental] dont use this package - CLI helpers for contributors working on Medusa",
-  "version": "0.0.27",
+  "version": "0.0.0-staging-20221110094848",
   "author": "Sebastian Rindom <skrindom@gmail.com>",
   "bin": {
     "medusa-dev": "./dist/index.js"
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
-    "@pkorsholm/babel-preset-medusa-package": "^1.1.19",
+    "@pkorsholm/babel-preset-medusa-package": "0.0.0-staging-20221110094848",
     "cross-env": "^7.0.3",
     "jest": "^25.5.2"
   },

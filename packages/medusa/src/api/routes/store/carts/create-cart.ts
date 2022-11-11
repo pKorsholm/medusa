@@ -1,5 +1,5 @@
 import { EntityManager } from "typeorm"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import reqIp from "request-ip"
 import { Type } from "class-transformer"
 import {

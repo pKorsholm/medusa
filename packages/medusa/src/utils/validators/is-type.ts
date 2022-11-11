@@ -7,7 +7,7 @@ import {
   ValidationOptions,
 } from "class-validator"
 import { isDate } from "lodash"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { validator } from "../validator"
 
 async function typeValidator(

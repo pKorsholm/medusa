@@ -1,7 +1,7 @@
 import { asValue, createContainer } from "awilix"
 import express from "express"
 import jwt from "jsonwebtoken"
-import { MockManager } from "medusa-test-utils"
+import { MockManager } from "@pkorsholm/medusa-test-utils"
 import "reflect-metadata"
 import supertest from "supertest"
 import querystring from "querystring"

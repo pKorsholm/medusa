@@ -1,6 +1,6 @@
 import { ClassConstructor, plainToInstance } from "class-transformer"
 import { validate, ValidationError, ValidatorOptions } from "class-validator"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 
 const reduceErrorMessages = (errs: ValidationError[]): string[] => {
   return errs.reduce((acc: string[], next) => {

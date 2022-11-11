@@ -1,6 +1,10 @@
 import _ from "lodash"
-import { MedusaError } from "medusa-core-utils"
-import { IdMap, MockManager, MockRepository } from "medusa-test-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
+import {
+  IdMap,
+  MockManager,
+  MockRepository,
+} from "@pkorsholm/medusa-test-utils"
 import CartService from "../cart"
 import { InventoryServiceMock } from "../__mocks__/inventory"
 import { LineItemAdjustmentServiceMock } from "../__mocks__/line-item-adjustment"

@@ -13,7 +13,7 @@ import {
 import { Request, Response } from "express"
 
 import { DateComparisonOperator } from "../../../../types/common"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import OrderService from "../../../../services/order"
 import { Type } from "class-transformer"
 

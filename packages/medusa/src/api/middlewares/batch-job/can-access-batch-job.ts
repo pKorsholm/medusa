@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import BatchJobService from "../../../services/batch-job"
 
 export async function canAccessBatchJob(req, res, next) {

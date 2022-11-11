@@ -1,5 +1,5 @@
 import { EntityManager } from "typeorm"
-import { MedusaError, computerizeAmount } from "medusa-core-utils"
+import { MedusaError, computerizeAmount } from "@pkorsholm/medusa-core-utils"
 
 import { AbstractBatchJobStrategy, IFileService } from "../../../interfaces"
 import CsvParser from "../../../services/csv-parser"

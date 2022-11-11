@@ -5093,7 +5093,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkorsholm/babel-preset-medusa-package@^1.1.19, @pkorsholm/babel-preset-medusa-package@workspace:packages/babel-preset-medusa-package":
+"@pkorsholm/babel-preset-medusa-package@0.0.0-staging-20221110094848, @pkorsholm/babel-preset-medusa-package@workspace:packages/babel-preset-medusa-package":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/babel-preset-medusa-package@workspace:packages/babel-preset-medusa-package"
   dependencies:
@@ -5167,7 +5167,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-cli@^1.3.3, @pkorsholm/medusa-cli@workspace:packages/medusa-cli":
+"@pkorsholm/medusa-cli@0.0.0-staging-20221110094848, @pkorsholm/medusa-cli@workspace:packages/medusa-cli":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa-cli@workspace:packages/medusa-cli"
   dependencies:
@@ -5179,7 +5179,7 @@ __metadata:
     "@babel/polyfill": ^7.8.7
     "@babel/preset-env": ^7.7.5
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
     axios: ^0.21.1
     chalk: ^4.0.0
     configstore: 5.0.1
@@ -5212,7 +5212,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-core-utils@^1.1.31, @pkorsholm/medusa-core-utils@^1.1.32, @pkorsholm/medusa-core-utils@^1.1.34, @pkorsholm/medusa-core-utils@workspace:packages/medusa-core-utils":
+"@pkorsholm/medusa-core-utils@0.0.0-staging-20221110094848, @pkorsholm/medusa-core-utils@workspace:packages/medusa-core-utils":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa-core-utils@workspace:packages/medusa-core-utils"
   dependencies:
@@ -5241,7 +5241,7 @@ __metadata:
     "@babel/cli": ^7.12.1
     "@babel/core": ^7.12.3
     "@babel/runtime": ^7.12.5
-    babel-preset-medusa-package: ^1.1.19
+    "@pkorsholm/babel-preset-medusa-package": 0.0.0-staging-20221110094848
     chokidar: ^3.5.0
     configstore: ^5.0.1
     cross-env: ^7.0.3
@@ -5275,8 +5275,8 @@ __metadata:
     "@babel/preset-env": ^7.16.4
     "@babel/register": ^7.16.0
     "@babel/runtime": ^7.16.3
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     aws-sdk: ^2.1043.0
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5284,7 +5284,7 @@ __metadata:
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5302,8 +5302,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.32
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     aws-sdk: ^2.983.0
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5311,7 +5311,7 @@ __metadata:
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5329,8 +5329,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     aws-sdk: ^2.710.0
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5339,7 +5339,7 @@ __metadata:
     jest: ^25.5.2
     stripe: ^8.50.0
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5355,13 +5355,13 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.7.6
     "@babel/preset-env": ^7.7.5
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
     client-sessions: ^0.8.0
     cross-env: ^5.2.1
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5376,8 +5376,8 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.7.6
     "@babel/preset-env": ^7.7.5
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa": ^1.3.3
-    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
     axios: ^0.20.0
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5386,11 +5386,11 @@ __metadata:
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-interfaces@^1.3.1, @pkorsholm/medusa-interfaces@^1.3.3, @pkorsholm/medusa-interfaces@workspace:packages/medusa-interfaces":
+"@pkorsholm/medusa-interfaces@0.0.0-staging-20221110094848, @pkorsholm/medusa-interfaces@workspace:packages/medusa-interfaces":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa-interfaces@workspace:packages/medusa-interfaces"
   dependencies:
@@ -5403,23 +5403,23 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/preset-typescript": ^7.13.0
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     cross-env: ^5.2.1
     jest: ^25.5.2
     typeorm: ^0.2.29
     typescript: ^4.4.4
   peerDependencies:
-    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
     typeorm: 0.x
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-js@^1.3.2, @pkorsholm/medusa-js@workspace:packages/medusa-js":
+"@pkorsholm/medusa-js@0.0.0-staging-20221110094848, @pkorsholm/medusa-js@workspace:packages/medusa-js":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa-js@workspace:packages/medusa-js"
   dependencies:
-    "@pkorsholm/medusa": ^1.6.0
+    "@pkorsholm/medusa": 0.0.0-staging-20221110094848
     "@types/jest": ^26.0.19
     axios: ^0.24.0
     cross-env: ^7.0.3
@@ -5446,8 +5446,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     axios: ^0.19.2
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5456,7 +5456,7 @@ __metadata:
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5474,8 +5474,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.32
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     axios: ^0.21.0
     axios-mock-adapter: ^1.19.0
     body-parser: ^1.19.0
@@ -5484,7 +5484,7 @@ __metadata:
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5503,11 +5503,11 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     cross-env: ^5.2.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5527,16 +5527,16 @@ __metadata:
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
     "@paypal/checkout-server-sdk": ^1.0.2
-    "@pkorsholm/medusa-core-utils": ^1.1.32
-    "@pkorsholm/medusa-interfaces": ^1.3.3
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
     cross-env: ^5.2.1
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5555,8 +5555,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.32
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
     cross-env: ^5.2.1
@@ -5564,7 +5564,7 @@ __metadata:
     jest: ^25.5.2
     stripe: ^8.50.0
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5581,8 +5581,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-interfaces": ^1.3.3
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
     algoliasearch: ^4.10.5
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5590,7 +5590,7 @@ __metadata:
     jest: ^25.5.2
     lodash: ^4.17.21
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
     typeorm: 0.x
   languageName: unknown
   linkType: soft
@@ -5609,9 +5609,9 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.34
-    "@pkorsholm/medusa-interfaces": ^1.3.1
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     axios: ^0.19.2
     axios-mock-adapter: ^1.18.2
     axios-mock-server: ^0.19.0
@@ -5622,7 +5622,7 @@ __metadata:
     jest: ^25.5.2
     randomatic: ^3.1.1
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5640,8 +5640,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
     contentful-management: ^5.27.1
@@ -5650,7 +5650,7 @@ __metadata:
     jest: ^25.5.2
     redis: ^3.0.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5668,7 +5668,7 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.34
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
     cross-env: ^5.2.1
@@ -5676,7 +5676,7 @@ __metadata:
     jest: ^25.5.2
     randomatic: ^3.1.1
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5694,8 +5694,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     axios: ^0.19.2
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5704,7 +5704,7 @@ __metadata:
     jest: ^25.5.2
     moment: ^2.27.0
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5724,7 +5724,7 @@ __metadata:
     cross-env: ^5.2.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5742,8 +5742,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
     cors: ^2.8.5
@@ -5752,7 +5752,7 @@ __metadata:
     jest: ^25.5.2
     mailchimp-api-v3: ^1.14.0
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5769,7 +5769,7 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
     cross-env: ^5.2.1
@@ -5777,7 +5777,7 @@ __metadata:
     lodash: ^4.17.21
     meilisearch: 0.27.0
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5789,9 +5789,9 @@ __metadata:
     "@babel/core": ^7.7.5
     "@babel/plugin-transform-typescript": ^7.13.0
     "@babel/preset-typescript": ^7.12.7
-    "@pkorsholm/babel-preset-medusa-package": ^1.1.19
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/babel-preset-medusa-package": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     cors: ^2.8.5
     cross-env: ^5.2.1
@@ -5800,8 +5800,8 @@ __metadata:
     pg: ^8.5.1
     ulid: ^2.3.0
   peerDependencies:
-    "@pkorsholm/medusa": ^1.6.1
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5819,8 +5819,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     analytics-node: ^3.4.0-beta.1
     axios: ^0.19.2
     body-parser: ^1.19.0
@@ -5829,7 +5829,7 @@ __metadata:
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5847,8 +5847,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     "@sendgrid/mail": ^7.1.1
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5856,7 +5856,7 @@ __metadata:
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5874,8 +5874,8 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     axios: ^0.19.2
     body-parser: ^1.19.0
     client-sessions: ^0.8.0
@@ -5884,7 +5884,7 @@ __metadata:
     jest: ^25.5.2
     moment: ^2.27.0
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5902,14 +5902,14 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     cross-env: ^5.2.1
     jest: ^25.5.2
     twilio: ^3.49.1
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5927,15 +5927,15 @@ __metadata:
     "@babel/preset-env": ^7.7.5
     "@babel/register": ^7.7.4
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     body-parser: ^1.19.0
     cors: ^2.8.5
     cross-env: ^5.2.1
     express: ^4.17.1
     jest: ^25.5.2
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.x
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
   languageName: unknown
   linkType: soft
 
@@ -5944,7 +5944,7 @@ __metadata:
   resolution: "@pkorsholm/medusa-react@workspace:packages/medusa-react"
   dependencies:
     "@babel/core": ^7.16.0
-    "@pkorsholm/medusa-js": ^1.3.2
+    "@pkorsholm/medusa-js": 0.0.0-staging-20221110094848
     "@size-limit/preset-small-lib": ^6.0.4
     "@storybook/addon-contexts": ^5.3.21
     "@storybook/addon-essentials": ^6.3.12
@@ -5975,7 +5975,7 @@ __metadata:
     ts-jest: ^27.1.4
     tslib: ^2.3.1
   peerDependencies:
-    "@pkorsholm/medusa": ^1.6.0
+    "@pkorsholm/medusa": 0.0.0-staging-20221110094848
     react: ">=16"
     react-query: ">= 3.29.0"
   languageName: unknown
@@ -5995,9 +5995,9 @@ __metadata:
     "@babel/preset-env": ^7.15.6
     "@babel/register": ^7.15.3
     "@babel/runtime": ^7.15.4
-    "@pkorsholm/medusa-core-utils": ^1.1.31
-    "@pkorsholm/medusa-interfaces": ^1.3.3
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     "@shopify/shopify-api": ^1.4.1
     axios: ^0.21.4
     body-parser: ^1.19.0
@@ -6008,7 +6008,7 @@ __metadata:
     jest: ^26.6.3
     lodash: ^4.17.21
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
     typeorm: 0.x
   languageName: unknown
   linkType: soft
@@ -6020,7 +6020,7 @@ __metadata:
     "@babel/cli": ^7.14.3
     "@babel/core": ^7.14.3
     "@babel/preset-typescript": ^7.15.0
-    "@pkorsholm/babel-preset-medusa-package": ^1.1.19
+    "@pkorsholm/babel-preset-medusa-package": 0.0.0-staging-20221110094848
     axios: ^0.21.1
     axios-retry: ^3.1.9
     boxen: ^5.0.1
@@ -6036,7 +6036,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa-test-utils@^1.1.37, @pkorsholm/medusa-test-utils@workspace:packages/medusa-test-utils":
+"@pkorsholm/medusa-test-utils@0.0.0-staging-20221110094848, @pkorsholm/medusa-test-utils@workspace:packages/medusa-test-utils":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa-test-utils@workspace:packages/medusa-test-utils"
   dependencies:
@@ -6047,24 +6047,25 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.7.6
     "@babel/preset-env": ^7.7.5
     "@babel/runtime": ^7.9.6
-    "@pkorsholm/medusa-core-utils": ^1.1.31
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
     cross-env: ^5.2.1
     jest: ^25.5.2
     randomatic: ^3.1.1
   languageName: unknown
   linkType: soft
 
-"@pkorsholm/medusa@^1.3.3, @pkorsholm/medusa@^1.6.0, @pkorsholm/medusa@workspace:packages/medusa":
+"@pkorsholm/medusa@0.0.0-staging-20221110094848, @pkorsholm/medusa@workspace:packages/medusa":
   version: 0.0.0-use.local
   resolution: "@pkorsholm/medusa@workspace:packages/medusa"
   dependencies:
     "@babel/cli": ^7.14.3
     "@babel/core": ^7.14.3
     "@babel/preset-typescript": ^7.13.0
-    "@pkorsholm/medusa-cli": ^1.3.3
-    "@pkorsholm/medusa-core-utils": ^1.1.34
-    "@pkorsholm/medusa-interfaces": ^1.3.3
-    "@pkorsholm/medusa-test-utils": ^1.1.37
+    "@pkorsholm/babel-preset-medusa-package": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-cli": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-core-utils": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
+    "@pkorsholm/medusa-test-utils": 0.0.0-staging-20221110094848
     "@types/express": ^4.17.13
     "@types/ioredis": ^4.28.10
     "@types/jest": ^27.5.0
@@ -6072,7 +6073,6 @@ __metadata:
     "@types/lodash": ^4.14.168
     "@types/multer": ^1.4.7
     awilix: ^4.2.3
-    babel-preset-medusa-package: ^1.1.19
     body-parser: ^1.19.0
     bull: ^3.12.1
     chokidar: ^3.4.2
@@ -6117,7 +6117,7 @@ __metadata:
     uuid: ^8.3.1
     winston: ^3.2.1
   peerDependencies:
-    "@pkorsholm/medusa-interfaces": 1.3.3
+    "@pkorsholm/medusa-interfaces": 0.0.0-staging-20221110094848
     typeorm: 0.2.x
   bin:
     medusa: ./cli.js
@@ -11710,7 +11710,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-medusa-package@npm:^1.0.0, babel-preset-medusa-package@npm:^1.1.19":
+"babel-preset-medusa-package@npm:^1.0.0":
   version: 1.1.20
   resolution: "babel-preset-medusa-package@npm:1.1.20"
   dependencies:

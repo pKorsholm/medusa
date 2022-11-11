@@ -1,5 +1,5 @@
 import { EntityManager } from "typeorm"
-import { MockManager } from "medusa-test-utils"
+import { MockManager } from "@pkorsholm/medusa-test-utils"
 import { TransactionBaseService } from "../transaction-base-service"
 
 describe("TransactionBaseService", () => {

@@ -1,4 +1,4 @@
-import { IdMap, MockRepository, MockManager } from "medusa-test-utils"
+import { IdMap, MockRepository, MockManager } from "@pkorsholm/medusa-test-utils"
 
 import SwapService from "../swap"
 import { InventoryServiceMock } from "../__mocks__/inventory"

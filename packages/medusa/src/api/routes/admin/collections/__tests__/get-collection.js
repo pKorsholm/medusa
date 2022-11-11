@@ -1,4 +1,4 @@
-import { IdMap } from "medusa-test-utils"
+import { IdMap } from "@pkorsholm/medusa-test-utils"
 import { defaultAdminCollectionsRelations } from ".."
 import { request } from "../../../../../helpers/test-request"
 import { ProductCollectionServiceMock } from "../../../../../services/__mocks__/product-collection"

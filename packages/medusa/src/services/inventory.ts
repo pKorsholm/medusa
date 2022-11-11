@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { TransactionBaseService } from "../interfaces"
 import { EntityManager } from "typeorm"
 import ProductVariantService from "./product-variant"

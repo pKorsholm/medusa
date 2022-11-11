@@ -1,5 +1,5 @@
 import { asValue, createContainer } from "awilix";
-import { MockRepository, MockManager } from "medusa-test-utils"
+import { MockRepository, MockManager } from "@pkorsholm/medusa-test-utils"
 import { StoreServiceMock } from "../../services/__mocks__/store";
 import { ShippingProfileServiceMock } from "../../services/__mocks__/shipping-profile";
 import Logger from "../logger";

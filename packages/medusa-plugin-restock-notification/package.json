@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa-plugin-restock-notification",
-  "version": "1.0.0",
+  "version": "0.0.0-staging-20221110094848",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,8 +14,8 @@
     "@babel/core": "^7.7.5",
     "@babel/plugin-transform-typescript": "^7.13.0",
     "@babel/preset-typescript": "^7.12.7",
-    "@pkorsholm/babel-preset-medusa-package": "^1.1.19",
-    "@pkorsholm/medusa-test-utils": "^1.1.37",
+    "@pkorsholm/babel-preset-medusa-package": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-test-utils": "0.0.0-staging-20221110094848",
     "cross-env": "^5.2.1",
     "jest": "^25.5.2",
     "pg": "^8.5.1",
@@ -28,11 +28,11 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@pkorsholm/medusa": "^1.6.1",
-    "@pkorsholm/medusa-interfaces": "1.x"
+    "@pkorsholm/medusa": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848"
   },
   "dependencies": {
-    "@pkorsholm/medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-core-utils": "0.0.0-staging-20221110094848",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1"

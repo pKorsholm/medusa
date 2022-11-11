@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { DiscountConditionService, DiscountService } from "../../../services"
 
 export async function doesConditionBelongToDiscount(req, res, next) {

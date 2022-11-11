@@ -5,7 +5,7 @@ import { EventBusService, LineItemService } from "./index"
 import { FindConfig, Selector } from "../types/common"
 import { OrderItemChange } from "../models"
 import { buildQuery } from "../utils"
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import TaxProviderService from "./tax-provider"
 import { CreateOrderEditItemChangeInput } from "../types/order-edit"
 

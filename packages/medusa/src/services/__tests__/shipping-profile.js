@@ -1,4 +1,4 @@
-import { IdMap, MockRepository, MockManager } from "medusa-test-utils"
+import { IdMap, MockRepository, MockManager } from "@pkorsholm/medusa-test-utils"
 import ShippingProfileService from "../shipping-profile"
 
 describe("ShippingProfileService", () => {

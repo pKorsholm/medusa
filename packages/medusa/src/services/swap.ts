@@ -1,4 +1,4 @@
-import { MedusaError } from "medusa-core-utils"
+import { MedusaError } from "@pkorsholm/medusa-core-utils"
 import { EntityManager, In } from "typeorm"
 
 import { buildQuery, isDefined, setMetadata, validateId } from "../utils"
