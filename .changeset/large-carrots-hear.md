@@ -1,0 +1,5 @@
+---
+"@pkorsholm/medusa": patch
+---
+
+test

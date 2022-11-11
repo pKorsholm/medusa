@@ -21,10 +21,10 @@ export default (app) => {
     "/currencies/:currency_code",
     middlewares.wrap(require("./add-currency").default)
   )
-  route.delete(
-    "/currencies/:currency_code",
-    middlewares.wrap(require("./remove-currency").default)
-  )
+  // route.delete(
+  //   "/currencies/:currency_code",
+  //   middlewares.wrap(require("./remove-currency").default)
+  // )
 
   return app
 }
