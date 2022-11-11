@@ -40,8 +40,8 @@ jobs:
 
       - name: publish staging packages
         run: yarn release:staging
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: Create Release Pull Request
       #   uses: changesets/action@v1
