@@ -24,6 +24,9 @@ jobs:
 
       - name: Install Dependencies
         run: yarn
+        
+      - name: Install Dependencies build
+        run: yarn build
 
       - name: Install Dependencies
         run: which npm
