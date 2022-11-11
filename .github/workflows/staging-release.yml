@@ -22,17 +22,6 @@ jobs:
         with:
           node-version: 14.x
 
-      - name: Install Dependencies
-        run: yarn
-        
-      - name: Install Dependencies build
-        run: yarn build
-
-      - name: Install Dependencies
-        run: which npm
-      - name: Install Dependencies
-        run: which node
-        
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
@@ -43,6 +32,18 @@ jobs:
           
       - name: Configure npm node prepend 
         run: npm config set scripts-prepend-node-path auto
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Install Dependencies build
+        run: yarn build
+
+      - name: Install Dependencies
+        run: which npm
+        
+      - name: Install Dependencies
+        run: which node
 
       - name: version staging packages
         run: yarn version:staging-snapshot
