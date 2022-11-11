@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa-plugin-wishlist",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "1.1.37",
   "description": "[Experimental] dont use this package - Provides /customers/:id/wishlist to add items to a customr's wishlist",
   "main": "index.js",
   "repository": {
@@ -31,11 +31,11 @@
     "test": "jest --passWithNoTests"
   },
   "peerDependencies": {
-    "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848"
+    "@pkorsholm/medusa-interfaces": "1.x"
   },
   "dependencies": {
-    "@pkorsholm/medusa-core-utils": "0.0.0-staging-20221110094848",
-    "@pkorsholm/medusa-test-utils": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-test-utils": "^1.1.37",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1"

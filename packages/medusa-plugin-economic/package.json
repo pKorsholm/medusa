@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa-plugin-economic",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "1.1.38",
   "description": "[Experimental] dont use this package - E-conomic financial reporting",
   "main": "index.js",
   "repository": {
@@ -31,12 +31,12 @@
     "test": "jest --passWithNoTests"
   },
   "peerDependencies": {
-    "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848"
+    "@pkorsholm/medusa-interfaces": "1.x"
   },
   "dependencies": {
     "@babel/plugin-transform-classes": "^7.9.5",
-    "@pkorsholm/medusa-core-utils": "0.0.0-staging-20221110094848",
-    "@pkorsholm/medusa-test-utils": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-test-utils": "^1.1.37",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",

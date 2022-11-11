@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa-source-shopify",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "1.2.3",
   "description": "[Experimental] dont use this package - Source plugin that allows users to import products from a Shopify store",
   "main": "index.js",
   "repository": {
@@ -17,14 +17,14 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-interfaces": "1.3.3",
     "typeorm": "0.x"
   },
   "dependencies": {
     "@babel/plugin-transform-classes": "^7.15.4",
-    "@pkorsholm/medusa-core-utils": "0.0.0-staging-20221110094848",
-    "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848",
-    "@pkorsholm/medusa-test-utils": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
+    "@pkorsholm/medusa-interfaces": "^1.3.3",
+    "@pkorsholm/medusa-test-utils": "^1.1.37",
     "@shopify/shopify-api": "^1.4.1",
     "axios": "^0.21.4",
     "body-parser": "^1.19.0",

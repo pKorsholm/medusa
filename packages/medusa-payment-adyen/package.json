@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa-payment-adyen",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "1.1.39",
   "description": "[Experimental] dont use this package - Adyen Payment provider for Medusa Commerce",
   "main": "index.js",
   "repository": {
@@ -20,7 +20,7 @@
     "@babel/preset-env": "^7.7.5",
     "@babel/register": "^7.7.4",
     "@babel/runtime": "^7.9.6",
-    "@pkorsholm/medusa-test-utils": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-test-utils": "^1.1.37",
     "client-sessions": "^0.8.0",
     "cross-env": "^7.0.2",
     "jest": "^25.5.2"
@@ -32,12 +32,12 @@
     "test": "jest --passWithNoTests"
   },
   "peerDependencies": {
-    "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848"
+    "@pkorsholm/medusa-interfaces": "1.x"
   },
   "dependencies": {
     "@adyen/api-library": "^5.0.1",
     "@babel/plugin-transform-classes": "^7.9.5",
-    "@pkorsholm/medusa-core-utils": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-core-utils": "^1.1.31",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/medusa-plugin-discount-generator",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "1.1.19",
   "main": "index.js",
   "license": "MIT",
   "author": "Sebastian Rindom",
@@ -31,10 +31,10 @@
     "test": "jest --passWithNoTests"
   },
   "peerDependencies": {
-    "@pkorsholm/medusa-interfaces": "0.0.0-staging-20221110094848"
+    "@pkorsholm/medusa-interfaces": "1.x"
   },
   "dependencies": {
-    "@pkorsholm/medusa-core-utils": "0.0.0-staging-20221110094848",
+    "@pkorsholm/medusa-core-utils": "^1.1.34",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "randomatic": "^3.1.1"

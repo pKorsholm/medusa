@@ -1,6 +1,6 @@
 {
   "name": "@pkorsholm/gatsby-source-medusa",
-  "version": "0.0.0-staging-20221110094848",
+  "version": "0.1.1",
   "description": "[Experimental] dont use this package - Gatsby source plugin for building websites using Medusa Commerce as a data source",
   "scripts": {
     "test": "jest --passWithNoTests",
