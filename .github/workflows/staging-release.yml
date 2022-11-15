@@ -47,6 +47,10 @@ jobs:
       - name: Save packages that will be updated 
         run: yarn changeset status --output package_versions.json
 
+      - name: Save packages that will be updated 
+        run: cat package_versions.json
+
+
       - name: unpublish previously
         run: |
           for i in $(jq '.releases | .[] | .name' package_versions.json)
