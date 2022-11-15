@@ -41,6 +41,9 @@ jobs:
       - name: Build Medusa
         run: yarn build
 
+      - name: force pull
+        run: git pull --force --no-tags origin main:main
+
       - name: Save packages that will be updated 
         run: yarn changeset status --output package_versions.json
 
