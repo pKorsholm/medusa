@@ -39,6 +39,18 @@ jobs:
       - name: Build Medusa
         run: yarn build
 
+      - name: Save packages that will be updated 
+        run: yarn changeset status --output package_versions.json
+
+      - name: unpublish previously
+        run: |
+          for i in $(jq '.releases | .[] | .name' package_versions.json) \
+          do \
+            packagename=$(sed -e 's/^"//' -e 's/"$//' <<< $i) \
+            stagingversion=$(npm view $packagename dist-tags.staging) \
+            npm unpublish $packagename@$stagingversion \
+          done
+
       - name: version staging packages
         run: yarn version:staging-snapshot
         env:
