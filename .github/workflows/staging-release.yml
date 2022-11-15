@@ -57,7 +57,7 @@ jobs:
           do
             packagename=$(sed -e 's/^"//' -e 's/"$//' <<< $i)
             stagingversion=$(npm view $packagename dist-tags.staging)
-            npm unpublish $packagename@$stagingversion
+            npm unpublish $packagename@$stagingversion --force=true
           done
 
       - name: version staging packages
