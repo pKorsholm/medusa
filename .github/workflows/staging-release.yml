@@ -50,10 +50,10 @@ jobs:
       - name: unpublish previously
         run: |
           for i in $(jq '.releases | .[] | .name' package_versions.json)
-          do \
-            packagename=$(sed -e 's/^"//' -e 's/"$//' <<< $i) \
-            stagingversion=$(npm view $packagename dist-tags.staging) \
-            npm unpublish $packagename@$stagingversion --dry-run=true \
+          do
+            packagename=$(sed -e 's/^"//' -e 's/"$//' <<< $i)
+            stagingversion=$(npm view $packagename dist-tags.staging)
+            npm unpublish $packagename@$stagingversion --dry-run=true
           done
 
       - name: version staging packages
