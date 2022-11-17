@@ -66,6 +66,8 @@ jobs:
 
       - name: Install Dependencies
         run: yarn
+        env: 
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
 
       - name: publish staging packages
         run: yarn release:staging
