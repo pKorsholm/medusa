@@ -7,7 +7,7 @@ import path from "path"
  * @return {object} an object containing the config module and its path as well as an error property if the config couldn't be loaded.
  */
 function getConfigFile(rootDir, configName) {
-  const configPath = path.join(rootDir, configName)
+  const configPath = path.join(rootDir, "test", configName)
   let configFilePath = ``
   let configModule
 
