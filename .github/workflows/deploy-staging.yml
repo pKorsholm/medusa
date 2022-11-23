@@ -3,8 +3,7 @@ name: Trigger staging deploy
 on:
   workflow_run:
     workflows: [Staging Release]
-    types:
-      - completed
+    types: [requested]
 
 jobs:
   deploy:
