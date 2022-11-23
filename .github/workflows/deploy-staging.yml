@@ -2,7 +2,7 @@ name: Trigger staging deploy
 
 on:
   workflow_run:
-    workflows: [Staging Release and publish]
+    workflows: [Staging Release]
     types:
       - completed
 
