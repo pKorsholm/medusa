@@ -4,7 +4,7 @@ on:
   workflow_run:
     workflows: [Staging Release and publish]
     types:
-      - requested
+      - completed
 
 jobs:
   deploy:
