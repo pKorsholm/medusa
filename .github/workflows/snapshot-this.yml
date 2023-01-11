@@ -99,14 +99,26 @@ jobs:
             //registry.npmjs.org/:_authToken=$NPM_TOKEN
           EOF
 
-      - name: Create and publish snapshot release
-        uses: actions/github-script@v6
+      - name: Version packages
+        run: yarn run changeset version --snapshot snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish packages
+        id: snapshot
+        run: |
+          touch out.txt
+          yarn run release:snapshot |& tee out.txt
+          echo "version=$(cat out.txt)" >> $GITHUB_OUTPUT
+
+      - name: Create and publish snapshot release
+        uses: actions/github-script@v6
+        env: 
+          PUBLISH_OUT: ${{ steps.snapshot.outputs.publish_out }}}
         with:
           script: |
-            await exec.exec('yarn run changeset version --snapshot snapshot')
-            const {stdout} = await exec.getExecOutput('yarn run release:snapshot')
+            const { PUBLISH_OUT: stdout } = process.env
+            console.log(stdout)
             const newTags = Array
               .from(stdout.matchAll(/New tag:\s+([^\s\n]+)/g))
               .map(([_, tag]) => tag)
