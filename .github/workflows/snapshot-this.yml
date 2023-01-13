@@ -100,7 +100,7 @@ jobs:
           EOF
 
       - name: Version packages
-        run: yarn run changeset version --snapshot snapshot
+        run: yarn run version:snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

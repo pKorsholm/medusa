@@ -71,6 +71,7 @@
     "generate:js-client": "typedoc --options typedoc.js-client.js",
     "generate:entities": "typedoc --options typedoc.entities.js",
     "release:staging": "changeset publish --no-git-tags --snapshot --tag staging",
+    "version:snapshot": "changeset version --snapshot snapshot",
     "version:staging-snapshot": "changeset version --snapshot staging",
     "release:snapshot": "changeset publish --no-git-tags --snapshot --tag snapshot",
     "generate:announcement": "node ./scripts/doc-change-release.js",
