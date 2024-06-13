@@ -101,6 +101,7 @@ class DiscountService extends TransactionBaseService {
   validateDiscountRule_<T extends { type: DiscountRuleType; value: number }>(
     discountRule: T
   ): T {
+    console.log("test")
     if (discountRule.type === "percentage" && discountRule.value > 100) {
       throw new MedusaError(
         MedusaError.Types.INVALID_DATA,
