@@ -64,6 +64,7 @@ import NoteService from "../../../../services/note"
 export default async (req, res) => {
   const { id } = req.params
 
+  // test comment
   const noteService: NoteService = req.scope.resolve("noteService")
   const manager: EntityManager = req.scope.resolve("manager")
   await manager.transaction(async (transactionManager) => {
