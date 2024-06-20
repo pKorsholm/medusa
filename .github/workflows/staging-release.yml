@@ -39,10 +39,33 @@ jobs:
       - name: Build Medusa
         run: yarn build
 
+      # - name: force pull
+      #   run: git pull --force --no-tags origin master:master
+
+      # - name: Save packages that will be updated 
+      #   run: yarn changeset status --output package_versions.json
+
+      # - name: Save packages that will be updated 
+      #   run: cat package_versions.json
+
+      # - name: unpublish previously
+      #   run: |
+      #     for i in $(jq '.releases | .[] | .name' package_versions.json)
+      #     do
+      #       packagename=$(sed -e 's/^"//' -e 's/"$//' <<< $i)
+      #       stagingversion=$(npm view $packagename dist-tags.staging)
+      #       npm unpublish $packagename@$stagingversion --force=true
+      #     done
+
       - name: version staging packages
         run: yarn version:staging-snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install Dependencies
+        run: yarn
+        env: 
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
 
       - name: publish staging packages
         run: yarn release:staging
