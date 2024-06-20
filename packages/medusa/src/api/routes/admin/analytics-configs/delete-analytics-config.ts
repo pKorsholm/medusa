@@ -3,6 +3,7 @@ import { EntityManager } from "typeorm"
 import { AnalyticsConfigService } from "../../../../services"
 
 // No OAS for this route, for internal use only.
+// yadayada
 export default async (req: Request, res: Response) => {
   const userId = (req.user?.userId ?? req.user?.id)!
 
