@@ -33,7 +33,7 @@ the list of currencies as well as the pagination properties.
 
 #### Defined in
 
-[medusa-js/src/resources/admin/currencies.ts:20](https://github.com/medusajs/medusa/blob/0b0d50b47/packages/medusa-js/src/resources/admin/currencies.ts#L20)
+[medusa-js/src/resources/admin/currencies.ts:20](https://github.com/pKorsholm/medusa/blob/829d87b84/packages/medusa-js/src/resources/admin/currencies.ts#L20)
 
 ___
 
@@ -63,4 +63,4 @@ the updated currency.
 
 #### Defined in
 
-[medusa-js/src/resources/admin/currencies.ts:43](https://github.com/medusajs/medusa/blob/0b0d50b47/packages/medusa-js/src/resources/admin/currencies.ts#L43)
+[medusa-js/src/resources/admin/currencies.ts:43](https://github.com/pKorsholm/medusa/blob/829d87b84/packages/medusa-js/src/resources/admin/currencies.ts#L43)
